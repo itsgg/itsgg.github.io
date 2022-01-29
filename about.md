@@ -19,6 +19,13 @@ permalink: /about/
   });
 </script>
 
+<script async
+  class="speakerdeck-embed"
+  data-id="5061422f64b44ef6b2afada1fd6f7899"
+  data-ratio="1.77777777777778"
+  src="https:///speakerdeck.com/assets/embed.js">
+</script>
+
 <script type="text/javascript">
   new Twitch.Player("twitch-embed", {
     video: "1280410211",

@@ -4,4 +4,5 @@ title: Profile
 permalink: /profile/
 ---
 
-TBD
+[a]({% link pages/hello.md %})
+[b](pages/hello.md)

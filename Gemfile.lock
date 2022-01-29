@@ -329,6 +329,8 @@ DEPENDENCIES
   github-pages
   jekyll
   jekyll-feed
+  jekyll-paginate
+  jekyll-relative-links
   jekyll-remote-theme
   kramdown-parser-gfm
   minima!

@@ -44,6 +44,13 @@ remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
+  
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

@@ -4,7 +4,8 @@ title: About
 permalink: /about/
 ---
 
-<script id="asciicast-465367" src="https://asciinema.org/a/465367.js" async></script>
+<script id="asciicast-465367" src="https://asciinema.org/a/465367.js" async>
+</script>
 
 <div id="twitch-embed"></div>
 

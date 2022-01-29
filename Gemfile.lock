@@ -329,6 +329,7 @@ DEPENDENCIES
   github-pages
   jekyll
   jekyll-feed
+  jekyll-remote-theme
   kramdown-parser-gfm
   minima!
   rubocop

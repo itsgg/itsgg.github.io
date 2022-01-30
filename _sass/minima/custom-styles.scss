@@ -1,8 +1,10 @@
 img[alt$=">"] {
+  padding-left: 10px;
   float: right;
 }
 
 img[alt$="<"] {
+  padding-right: 10px;
   float: left;
 }
 

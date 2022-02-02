@@ -10,7 +10,7 @@ permalink: /about/
 
 I am a pragmatic software architect and a polyglot developer. I have worked with Fortune 500 companies, 2 person startups and everything in between.
 
-Furthermore, I am a life-long learner with interests in entrepreneurship, neuroscience, philosophy, and pedagogy. I founded two startups in education domain and took it to seed funding stage.
+I am a life-long learner with interests in entrepreneurship, neuroscience, philosophy, and pedagogy. I founded two startups in education domain and took it to seed funding stage.
 
 I am currently building an open democratic learning platform.
 

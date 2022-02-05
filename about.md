@@ -8,7 +8,7 @@ permalink: /about/
 
 ![GG alt >](/assets/images/gg.png)
 
-I am a pragmatic software architect and a polyglot developer. I have worked with Fortune 500 companies, 2 person startups and everything in between.
-> ### Do or do not. There is no try.
->
+I am a pragmatic software architect and a polyglot developer. This site is mostly for my babblings on entrepreneurship, programming, and life.
+
+> __Do or do not. There is no try.__
 > - Yoda

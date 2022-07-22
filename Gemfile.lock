@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/jekyll/minima.git
-  revision: 296bf6b872b8450529bee1e48d0ca9be200a4be5
+  revision: ffdb3210adabbd0a04f567ff88aa716928d664d0
   specs:
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
@@ -43,7 +43,7 @@ GEM
     ffi (1.15.5)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
-    github-pages (226)
+    github-pages (227)
       github-pages-health-check (= 1.17.9)
       jekyll (= 3.9.2)
       jekyll-avatar (= 0.7.0)
@@ -85,7 +85,7 @@ GEM
       liquid (= 4.0.3)
       mercenary (~> 0.3)
       minima (= 2.5.1)
-      nokogiri (>= 1.13.4, < 2.0)
+      nokogiri (>= 1.13.6, < 2.0)
       rouge (= 3.26.0)
       terminal-table (~> 1.4)
     github-pages-health-check (1.17.9)
@@ -209,6 +209,7 @@ GEM
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
+    json (2.6.2)
     kramdown (2.3.2)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -219,9 +220,11 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
     multi_json (1.15.0)
-    nokogiri (1.13.6-x86_64-darwin)
+    nokogiri (1.13.7-arm64-darwin)
       racc (~> 1.4)
-    octokit (4.25.0)
+    nokogiri (1.13.7-x86_64-darwin)
+      racc (~> 1.4)
+    octokit (4.25.1)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
     parallel (1.22.1)
@@ -240,16 +243,17 @@ GEM
       nokogiri
     rexml (3.2.5)
     rouge (3.26.0)
-    rubocop (1.31.0)
+    rubocop (1.32.0)
+      json (~> 2.3)
       parallel (~> 1.10)
       parser (>= 3.1.0.0)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 1.8, < 3.0)
       rexml (>= 3.2.5, < 4.0)
-      rubocop-ast (>= 1.18.0, < 2.0)
+      rubocop-ast (>= 1.19.1, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 3.0)
-    rubocop-ast (1.18.0)
+    rubocop-ast (1.19.1)
       parser (>= 3.1.1.0)
     ruby-progressbar (1.11.0)
     ruby2_keywords (0.0.5)
@@ -286,7 +290,7 @@ GEM
     tilt (2.0.10)
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
-    tzinfo (2.0.4)
+    tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
     tzinfo-data (1.2022.1)
       tzinfo (>= 1.0.0)
@@ -300,6 +304,7 @@ GEM
       webrick (~> 1.7.0)
 
 PLATFORMS
+  arm64-darwin-21
   x86_64-darwin-21
 
 DEPENDENCIES

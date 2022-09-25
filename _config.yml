@@ -40,6 +40,8 @@ minima:
 # Build settings
 markdown: kramdown
 remote_theme: jekyll/minima
+feed:
+  path: /blog/feed.atom
 plugins:
   - jekyll-feed
   - jekyll-remote-theme

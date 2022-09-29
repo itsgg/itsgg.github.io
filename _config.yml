@@ -37,6 +37,8 @@ minima:
     github: itsgg
     youtube_channel: UCbNf5yOxDcr9H_vw_qEEuqw
 
+github: [metadata]
+
 # Build settings
 markdown: kramdown
 remote_theme: jekyll/minima

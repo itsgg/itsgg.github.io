@@ -2,6 +2,7 @@
 layout: post
 title: "Meditations by Marcus Aurelius"
 date: 2022-10-18 22:28:57 +0530
+excerpt: Key points from Meditations by Marcus Aurelius.
 categories: Philosophy
 ---
 

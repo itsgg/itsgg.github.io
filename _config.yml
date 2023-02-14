@@ -33,9 +33,9 @@ header_pages:
 minima:
   skin: dark
   social_links:
-    twitter: itsgg
-    github: itsgg
-    youtube_channel: UCbNf5yOxDcr9H_vw_qEEuqw
+    - { platform: github,  user_url: "https://github.com/itsgg" }
+    - { platform: twitter, user_url: "https://twiter.com/itsgg" }
+    - { platform: youtube, user_url: "https://www.youtube.com/@its_gg" }
 
 # Build settings
 markdown: kramdown

@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: It's GG
+title: GG
 author:
   name: Ganesh Gunasegaran
   email: me@itsgg.com
@@ -36,6 +36,9 @@ minima:
     - { platform: github,  user_url: "https://github.com/itsgg" }
     - { platform: twitter, user_url: "https://twitter.com/itsgg" }
     - { platform: youtube, user_url: "https://www.youtube.com/@itsgg.youtube" }
+    - { platform: facebook, user_url: "https://www.facebook.com/itsgg.fb" }
+    - { platform: instagram, user_url: "https://www.instagram.com/itsgg.insta" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/itsgg" }
 
 # Build settings
 markdown: kramdown

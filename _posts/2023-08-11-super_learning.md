@@ -2,7 +2,7 @@
 layout: post
 title: "Super Learning - Peter Hollins (Book Summary)"
 date: 2023-08-11 12:28:57 +0530
-categories: book Summary
+categories: "Book Summary"
 excerpt: "Advanced Strategies for Quicker Comprehension, Greater Retention, and Systematic Expertise"
 ---
 

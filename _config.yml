@@ -27,7 +27,6 @@ copyright: >-
 show_excerpts: true
 
 header_pages:
-  - profile.md
   - about.md
 
 minima:

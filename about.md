@@ -6,7 +6,7 @@ permalink: /about/
 
 ## Ganesh Gunasegaran ➤ GG
 
-![GG alt >](/assets/images/gg.png){: .profile_img}
+![GG alt >](/assets/images/gg.jpg){: .profile_img}
 
 This site primarily focuses on my thoughts and experiences in entrepreneurship, programming, and life.
 

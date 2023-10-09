@@ -3,7 +3,6 @@ layout: post
 title: "Vipassana"
 date: 2023-10-08 12:28:57 +0530
 categories: personal
-toc: true
 ---
 
 Vipassana meditation is an ancient form of meditation technique that focuses on cultivating deep, profound insight into the nature of reality. Here is a simple guide on how to perform it:

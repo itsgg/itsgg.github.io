@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vipassana Meditation"
+title: "Vipassana"
 date: 2023-10-08 12:28:57 +0530
 categories: personal
 toc: true

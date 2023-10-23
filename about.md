@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-## Ganesh Gunasegaran ➤ GG
-
 ![GG alt >](/assets/images/gg.jpg){: .profile_img}
 
-This site focuses on my thoughts and experiences in entrepreneurship, programming, and life.
+I'm Ganesh Gunasegaran (GG), an entrepreneur, programmer, and a restless explorer of life. 
+
+Balancing the logical world of tech with the ever-puzzling realm of human relationships, I blend business, code, and connections to build the future.
 
 > **Ignorance is the cause of fear**
 >

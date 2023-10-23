@@ -8,7 +8,7 @@ permalink: /about/
 
 ![GG alt >](/assets/images/gg.jpg){: .profile_img}
 
-This site primarily focuses on my thoughts and experiences in entrepreneurship, programming, and life.
+This site focuses on my thoughts and experiences in entrepreneurship, programming, and life.
 
 > **Ignorance is the cause of fear**
 >

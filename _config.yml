@@ -26,19 +26,25 @@ copyright: >-
 
 show_excerpts: true
 
+logo: /assets/logo.png
+
 header_pages:
   - about.md
 
-minima:
-  skin: dark
-  social_links:
-    - { platform: github,  user_url: "https://github.com/itsgg" }
-    - { platform: twitter, user_url: "https://twitter.com/itsgg" }
-    - { platform: youtube, user_url: "https://www.youtube.com/@itsgg.youtube" }
+footer_links:
+  - title: Twitter
+    url: https://twitter.com/username
+    icon: fab fa-twitter-square
+  - title: GitHub
+    url: https://github.com/mmistakes
+    icon: fab fa-github-square
+  - title: Feed
+    url: /blog/feed.atom
+    icon: fas fa-rss-square
 
 # Build settings
 markdown: kramdown
-remote_theme: jekyll/minima
+remote_theme: mmistakes/so-simple-theme
 feed:
   path: /blog/feed.atom
 plugins:

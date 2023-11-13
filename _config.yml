@@ -1,18 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: GG
 author:
   name: Ganesh Gunasegaran
@@ -33,18 +18,23 @@ header_pages:
 
 footer_links:
   - title: Twitter
-    url: https://twitter.com/username
+    url: https://twitter.com/itsgg
     icon: fab fa-twitter-square
   - title: GitHub
-    url: https://github.com/mmistakes
+    url: https://github.com/itsgg
     icon: fab fa-github-square
   - title: Feed
     url: /blog/feed.atom
     icon: fas fa-rss-square
 
-# Build settings
 markdown: kramdown
+
 remote_theme: mmistakes/so-simple-theme
+skin: "/assets/css/skins/itsgg.css"
+
+mathjax:
+  enable: true
+
 feed:
   path: /blog/feed.atom
 plugins:
@@ -56,15 +46,11 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-  
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+search_full_content: true
+
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
+
+paginate: 5
+paginate_path: /page:num/

@@ -8,8 +8,6 @@ permalink: /about/
 
 ## Ganesh Gunasegaran (GG)
 
-Navigating the Intersection of Tech, Thought, and Venture with Code, Philosophy, and Entrepreneurship.
+Harnessing code, psychology, and entrepreneurial spirit to turn technology and ideas into business ventures.
 
-> **Ignorance is the cause of fear**
->
-> - Seneca
+You can reach me at <me@itsgg.com>.

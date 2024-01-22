@@ -8,6 +8,27 @@ img[alt$='<'] {
   float: left;
 }
 
+.site-title,
+.page-link {
+  color: #ffffff !important;
+}
+
+h1 {
+  color: #8daad5 !important;
+}
+
+h2 {
+  color: #e07632 !important;
+}
+
+h3 {
+  color: #a29dac !important;
+}
+
+h4 {
+  color: #cb835b !important;
+}
+
 img[alt$='><'] {
   display: block;
   max-width: 100%;
@@ -32,7 +53,7 @@ img[alt$='><'] {
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
 }
 
-@media (min-width:320px) {
+@media (min-width: 320px) {
   .profile_img {
     margin: auto;
     text-align: center;

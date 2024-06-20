@@ -29,6 +29,10 @@ h4 {
   color: #8da9d5 !important;
 }
 
+hr {
+  border: 1px solid #333333;
+}
+
 img[alt$='><'] {
   display: block;
   max-width: 100%;
@@ -46,6 +50,17 @@ img[alt$='><'] {
   background: black;
   height: 200px;
   width: 200px;
+  border-radius: 10px;
+  margin: 10px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.embed_img {
+  background: black;
+  height: 500px;
+  width: 500px;
   border-radius: 10px;
   margin: 10px;
   -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);

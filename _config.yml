@@ -42,6 +42,7 @@ remote_theme: jekyll/minima
 feed:
   path: /blog/feed.atom
 plugins:
+  - jekyll-compose
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-paginate

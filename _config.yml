@@ -34,7 +34,7 @@ minima:
   social_links:
     - { platform: github,  user_url: "https://github.com/itsgg" }
     - { platform: twitter, user_url: "https://twitter.com/itsgg" }
-    - { platform: youtube, user_url: "https://www.youtube.com/@itsgg.youtube" }
+    - { platform: youtube, user_url: "https://www.youtube.com/@itsgg_com" }
 
 # Build settings
 markdown: kramdown

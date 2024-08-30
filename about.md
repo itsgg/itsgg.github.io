@@ -8,6 +8,6 @@ permalink: /about/
 
 ## Ganesh Gunasegaran (GG)
 
-Harnessing code, psychology, and entrepreneurial spirit to turn technology and ideas into business ventures.
+> Fusing tech with mind to forge the future.
 
 You can reach me at <me@itsgg.com>.

@@ -68,9 +68,12 @@ img[alt$='><'] {
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
 }
 
-@media (min-width: 320px) {
+@media (max-width: 600px) {
   .profile_img {
-    margin: auto;
+    display: block;
+    max-width: 100%;
     text-align: center;
+    margin: auto;
+    float: none !important;
   }
 }

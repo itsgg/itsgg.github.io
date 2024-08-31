@@ -471,7 +471,7 @@ Once we've made a public statement we make consistnent decisions to support it.
 
 ## Chunking
 
-We process information better when
+We process information better when it's broken down into smaller, more manageable parts.
 
 ---
 

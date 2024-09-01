@@ -35,6 +35,7 @@ minima:
     - { platform: github,  user_url: "https://github.com/itsgg" }
     - { platform: twitter, user_url: "https://twitter.com/itsgg" }
     - { platform: youtube, user_url: "https://www.youtube.com/@itsgg_com" }
+    - { platform: rss, user_url: "/blog/feed.atom" }
 
 # Build settings
 markdown: kramdown

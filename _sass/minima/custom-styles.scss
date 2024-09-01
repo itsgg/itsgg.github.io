@@ -46,26 +46,22 @@ img[alt$='><'] {
   text-align: right;
 }
 
-.profile_img {
+.profile_img,
+.embed_img {
   background: black;
-  height: 200px;
-  width: 200px;
   border-radius: 10px;
   margin: 10px;
-  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
-  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
 }
 
+.profile_img {
+  height: 200px;
+  width: 200px;
+}
+
 .embed_img {
-  background: black;
   height: 500px;
   width: 500px;
-  border-radius: 10px;
-  margin: 10px;
-  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
-  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
-  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
 }
 
 @media (max-width: 600px) {
@@ -87,4 +83,26 @@ img[alt$='><'] {
 .site-footer {
   background-color: #111;
   border-top: 4px solid #222;
+}
+
+.footer-col-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-col:first-child {
+  flex: 1;
+}
+
+.footer-col:last-child {
+  flex: 2;
+}
+
+.contact-list li {
+  margin-top: 15px;
+}
+
+.small-text {
+  font-size: 0.8em;
 }

@@ -10,7 +10,7 @@ permalink: /about/
 
 > Fusing tech with mind to forge the future.
 
-You can reach me at <me@itsgg.com>.
+You can reach me at [me@itsgg.com](mailto:me@itsgg.com?subject=Web%20Contact).
 
 ### Disclaimer
 

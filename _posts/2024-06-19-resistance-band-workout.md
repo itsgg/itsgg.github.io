@@ -3,6 +3,7 @@ layout: post
 title: Resistance Band Workout
 date: 2024-06-19 00:00:00 +0530
 categories: notes
+toc: true
 ---
 
 Engage in a simple full-body workout using resistance bands. Perform each exercise for 3 sets of 10-15 repetitions.

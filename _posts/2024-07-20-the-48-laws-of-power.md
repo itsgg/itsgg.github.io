@@ -3,6 +3,7 @@ layout: post
 title: The 48 Laws of Power
 date: 2024-07-20 09:44 +0530
 categories: notes
+toc: true
 ---
 
 List of "The 48 Laws of Power" from the book by Robert Greene.

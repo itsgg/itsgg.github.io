@@ -106,3 +106,10 @@ img[alt$='><'] {
 .small-text {
   font-size: 0.8em;
 }
+
+#toc {
+  margin: 10px;
+  li {
+    list-style-type: disc;
+  }
+}

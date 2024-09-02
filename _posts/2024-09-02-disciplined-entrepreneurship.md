@@ -3,7 +3,6 @@ layout: post
 title: Disciplined Entrepreneurship
 date: 2024-09-02 16:06 +0530
 categories: notes
-toc: true
 ---
 
 Disciplined Entrepreneurship Is a Systematic and Rigorous 24-step Framework to Build New Innovation-Based Ventures.

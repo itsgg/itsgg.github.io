@@ -10,7 +10,7 @@ permalink: /about/
 
 > Fusing tech with mind to forge the future.
 
-You can reach me at [me@itsgg.com](mailto:me@itsgg.com?subject=Web%20Contact) or schedule a meeting with me <a href="https://itsgg.neetocal.com/hello" target="_blank">here</a>.
+You can reach me at [me@itsgg.com](mailto:me@itsgg.com?subject=Web%20Contact).
 
 ### Disclaimer
 

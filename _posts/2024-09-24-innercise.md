@@ -37,13 +37,13 @@ Innercise is for the individual who knows they are capable of achieving more wea
 
 - Just as exercise can strengthen your physical muscles, innercise can strengthen your neuro-muscles.
 - There are three core neuro-muscles.
--- **Awareness**, to bring new insight to things inside and outside you that you barely notice, and to give you the ability to *choose*.
--- **Intention**, to use the choice offered by awareness to **decide what is that you want**.
--- **Action**, to focus on that chosen path and deliberately choose how you will think, feel, and act.
+  - **Awareness**, to bring new insight to things inside and outside you that you barely notice, and to give you the ability to *choose*.
+  - **Intention**, to use the choice offered by awareness to **decide what is that you want**.
+  - **Action**, to focus on that chosen path and deliberately choose how you will think, feel, and act.
 - These core neuro-muscles are most effective when repeatedly combined over extended periods of time.
 - Innercises are fast, reliable techniques to help you strengthen each of core neuro-muscles.
 
----
+  --
 
 ## Master Your Thoughts and Emotions
 
@@ -53,12 +53,12 @@ Innercise is for the individual who knows they are capable of achieving more wea
 - Living up to your highest potential is more than know-how.
 - It is also about doing more of what you know you need to be doing.
 - There are six common obstacles to successfully reaching your goals.
--- Fear.
--- Limiting beliefs.
--- A negative mindset.
--- Excess stress.
--- Disempowering habits.
--- Lack of emotional control.
+  - Fear.
+  - Limiting beliefs.
+  - A negative mindset.
+  - Excess stress.
+  - Disempowering habits.
+  - Lack of emotional control.
 
 ### Habits
 
@@ -79,8 +79,8 @@ Innercise is for the individual who knows they are capable of achieving more wea
 
 - Beliefs help drive your behavior and form your reality.
 - The conscious/subconscious divide in your brain creates two types of beliefs.
--- **Explicit**, ones you are conscious of.
--- **Implicit**, ones hidden in your subconscious.
+  - **Explicit**, ones you are conscious of.
+  - **Implicit**, ones hidden in your subconscious.
 - When you try to change, your explicit and implicit beliefs don't align, and you'll likely experience cognitive dissonance.
 - This will result in your implicit beliefs trying to bring things back to the existing state of affairs, including self-harming and self-sabotaging.
 - Many of your implicit beliefs that don't serve you well can be identified and changed.
@@ -101,7 +101,7 @@ Innercise is for the individual who knows they are capable of achieving more wea
 - The key to changing your mindset, and the results you strive for, is to strike the right balance between your inner Frankenstein monster and Einstein.
 - A positive mindset and a healthy construct of emotions are choices available to you.
 
----
+  --
 
 ## Master Your Behavior
 

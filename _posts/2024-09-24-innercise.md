@@ -43,7 +43,7 @@ Innercise is for the individual who knows they are capable of achieving more wea
 - These core neuro-muscles are most effective when repeatedly combined over extended periods of time.
 - Innercises are fast, reliable techniques to help you strengthen each of core neuro-muscles.
 
-  --
+---
 
 ## Master Your Thoughts and Emotions
 
@@ -101,7 +101,7 @@ Innercise is for the individual who knows they are capable of achieving more wea
 - The key to changing your mindset, and the results you strive for, is to strike the right balance between your inner Frankenstein monster and Einstein.
 - A positive mindset and a healthy construct of emotions are choices available to you.
 
-  --
+---
 
 ## Master Your Behavior
 

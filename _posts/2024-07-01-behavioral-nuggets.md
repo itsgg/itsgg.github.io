@@ -2,7 +2,6 @@
 layout: post
 title: Behavioral Nuggets
 date: 2024-07-01 00:00:00 +0530
-categories: notes
 ---
 
 Behavioral nuggets are small, actionable pieces of advice or insights that help people change their behavior or habits in a positive way.

@@ -32,7 +32,7 @@ header_pages:
 minima:
   skin: dark
   social_links:
-    - { platform: github,  user_url: "https://github.com/itsgg" }
+    - { platform: github, user_url: "https://github.com/itsgg" }
     - { platform: twitter, user_url: "https://twitter.com/itsgg" }
     - { platform: youtube, user_url: "https://www.youtube.com/@itsgg_com" }
     - { platform: rss, user_url: "/blog/feed.atom" }
@@ -51,7 +51,6 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-  
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

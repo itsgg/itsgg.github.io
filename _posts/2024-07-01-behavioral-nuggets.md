@@ -476,7 +476,7 @@ We process information better when it's broken down into smaller, more manageabl
 
 ## Certainity Effect
 
-We have clarity over chance and make costly sacrifices to get it.
+We crave clarity over chance and make costly sacrifices to get it.
 
 ---
 

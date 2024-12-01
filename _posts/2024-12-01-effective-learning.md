@@ -14,12 +14,16 @@ Strategies for effective learning, including techniques to focus, overcome obsta
 - Set up a distraction-free environment.
 - Take frequent short breaks.
 
+---
+
 ## Overcome Being Stuck
 
 - When stuck, switch your focus away from the problem at hand, or take a break to surface the diffuse mode.
 - After some time completely away from the problem, return to where you got stuck.
 - Use the Hard Start Technique: start with the hardest part of the problem first.
 - When starting an essay, do not constantly stop to edit what is flowing out. Separate the time spent writing from time spent editing.
+
+---
 
 ## Learn Deeply
 
@@ -28,21 +32,29 @@ Strategies for effective learning, including techniques to focus, overcome obsta
 - Don't just focus on the easy stuff, challenge yourself.
 - Get enough sleep and stay physically active.
 
+---
+
 ## Maximize Your Working Memory
 
 - Break learning material into small chunks and swap fancy terms for easier ones.
 - Use "to-do" lists to clear your working memory.
 - Take good notes and review them the same day you took them.
 
+---
+
 ## Memorize More Efficiently
 
 - Use memory tricks to speed up memorization: acronyms, images, and the Memory Palace.
 - Use metaphors to quickly grasp new concepts.
 
+---
+
 ## Gain Intuition & Think Quickly
 
 - Internalize (don't just unthinkingly memorize) procedures for solving key scientific or mathematical problems.
 - Make up appropriate gestures to help you remember and understand new language vocabulary.
+
+---
 
 ## Exert Self-Discipline
 
@@ -51,6 +63,8 @@ Strategies for effective learning, including techniques to focus, overcome obsta
 - Improve your habits.
 - Plan your goals and identify obstacles and the ideal way to respond to them ahead of time.
 
+---
+
 ## Motivate Yourself
 
 - Remind yourself of all the benefits of completing tasks.
@@ -58,10 +72,14 @@ Strategies for effective learning, including techniques to focus, overcome obsta
 - Make sure that a task's level of difficulty matches your skill set.
 - Set goals - long-term goals, milestone goals, and process goals.
 
+---
+
 ## Read Effectively
 
 - Preview the text before reading it in detail.
 - Read actively: think about the text, practice active recall, and annotate.
+
+---
 
 ## Win Big
 
@@ -69,6 +87,8 @@ Strategies for effective learning, including techniques to focus, overcome obsta
 - Practice with previous examples or scenarios - from past experiences, if possible.
 - During tasks: read instructions carefully, keep track of time, and review your work.
 - Use the Hard Start Technique.
+
+---
 
 ## Be a Pro Learner
 

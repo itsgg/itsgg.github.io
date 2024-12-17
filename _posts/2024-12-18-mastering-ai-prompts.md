@@ -147,7 +147,7 @@ If you want me to avoid something, mention it.
 
 ---
 
-## Prompt Formula: Who + What + How/Why + Context/Constraints
+## Prompt Formula
 
 ### Key Components
 

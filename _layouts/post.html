@@ -2,43 +2,62 @@
 layout: base
 ---
 
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-    <header class="post-header">
-        <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-        <p class="post-meta">
-            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-            <time
-                class="dt-published"
-                datetime="{{ page.date | date_to_xmlschema }}"
-                itemprop="datePublished"
-            >
-                {{ page.date | date: date_format }}
-            </time>
-            {%- if page.modified_date -%} ~ {%- assign mdate = page.modified_date |
-            date_to_xmlschema -%}
-            <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
-                {{ mdate | date: date_format }}
-            </time>
-            {%- endif -%} {%- if page.author -%} • {% for author in page.author %}
-            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                <span class="p-author h-card" itemprop="name">{{ author }}</span></span
-            >
-            {%- if forloop.last == false %}, {% endif -%} {% endfor %} {%- endif -%}
-        </p>
-    </header>
+<article
+  class="post h-entry"
+  itemscope
+  itemtype="http://schema.org/BlogPosting"
+>
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">
+      {{ page.title | escape }}
+    </h1>
+    <p class="post-meta">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
+      -%}
+      <time
+        class="dt-published"
+        datetime="{{ page.date | date_to_xmlschema }}"
+        itemprop="datePublished"
+      >
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.modified_date -%} ~ {%- assign mdate = page.modified_date |
+      date_to_xmlschema -%}
+      <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
+        {{ mdate | date: date_format }}
+      </time>
+      {%- endif -%} {%- if page.author -%} • {% for author in page.author %}
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span class="p-author h-card" itemprop="name">{{ author }}</span></span
+      >
+      {%- if forloop.last == false %}, {% endif -%} {% endfor %} {%- endif -%}
+    </p>
+  </header>
 
-    <div class="post-content e-content" itemprop="articleBody">
-        {% include toc.html html=content id="toc" %}
-        {{ content }}
-    </div>
+  <div class="post-content e-content" itemprop="articleBody">
+    {% include toc.html html=content id="toc" %} {{ content }}
+  </div>
 
-    {%- if site.disqus.shortname -%} {%- include disqus_comments.html -%} {%- endif -%}
+  {%- if site.disqus.shortname -%} {%- include disqus_comments.html -%} {%-
+  endif -%}
 
-    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
 <style>
-.copy-button {
+  #toc > li > ul > li > a {
+    color: #c6d4ea;
+  }
+
+  #toc > li > ul > li > ul > a {
+    color: #a9bedf;
+  }
+
+  #toc > li > ul > li > ul > li > ul > a {
+    color: #8da9d5;
+  }
+
+  .copy-button {
     background: none;
     border: none;
     cursor: pointer;
@@ -47,12 +66,12 @@ layout: base
     font-size: 0.8em; /* Make the icon smaller */
     float: right; /* Right justify the icon */
     position: relative;
-}
-.copy-button:hover {
+  }
+  .copy-button:hover {
     color: gray; /* Slightly darker on hover */
-}
-.copy-button::after {
-    content: 'Copy';
+  }
+  .copy-button::after {
+    content: "Copy";
     position: absolute;
     top: -1.5em;
     right: 0;
@@ -63,37 +82,41 @@ layout: base
     font-size: 0.5em;
     display: none;
     white-space: nowrap;
-}
-.copy-button:hover::after {
+  }
+  .copy-button:hover::after {
     display: block;
-}
-.copy-button.copied::after {
-    content: 'Copied';
+  }
+  .copy-button.copied::after {
+    content: "Copied";
     display: block;
-}
+  }
 </style>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll('.post-content h2[id]').forEach(function(heading) {
-        var id = heading.getAttribute('id');
-        var link = document.createElement('a');
-        link.href = '#' + id;
+  document.addEventListener("DOMContentLoaded", function () {
+    document
+      .querySelectorAll(".post-content h2[id]")
+      .forEach(function (heading) {
+        var id = heading.getAttribute("id");
+        var link = document.createElement("a");
+        link.href = "#" + id;
         link.innerHTML = heading.innerHTML;
-        heading.innerHTML = '';
+        heading.innerHTML = "";
         heading.appendChild(link);
 
-        var copyButton = document.createElement('button');
-        copyButton.innerHTML = '📋'; // Clipboard icon
-        copyButton.className = 'copy-button';
-        copyButton.addEventListener('click', function() {
-            navigator.clipboard.writeText(window.location.href.split('#')[0] + '#' + id);
-            copyButton.classList.add('copied');
-            setTimeout(function() {
-                copyButton.classList.remove('copied');
-            }, 2000);
+        var copyButton = document.createElement("button");
+        copyButton.innerHTML = "📋"; // Clipboard icon
+        copyButton.className = "copy-button";
+        copyButton.addEventListener("click", function () {
+          navigator.clipboard.writeText(
+            window.location.href.split("#")[0] + "#" + id
+          );
+          copyButton.classList.add("copied");
+          setTimeout(function () {
+            copyButton.classList.remove("copied");
+          }, 2000);
         });
         heading.appendChild(copyButton);
-    });
-});
+      });
+  });
 </script>

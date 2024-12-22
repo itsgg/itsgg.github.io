@@ -11,6 +11,12 @@ img[alt$='<'] {
 .site-title,
 .page-link {
   color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.siite-title:hover,
+.page-link:hover {
+  color: #bbbbbb !important;
 }
 
 h1 {
@@ -27,6 +33,10 @@ h3 {
 
 h4 {
   color: #8da9d5 !important;
+}
+
+h1 a, h2 a, h3 a {
+  text-decoration: none !important;
 }
 
 hr {

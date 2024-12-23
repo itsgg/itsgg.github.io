@@ -27,6 +27,7 @@ copyright: >-
 show_excerpts: true
 
 header_pages:
+  - apps.md
   - about.md
 
 minima:

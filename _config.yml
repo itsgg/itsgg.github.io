@@ -26,6 +26,8 @@ copyright: >-
 
 show_excerpts: true
 
+google_analytics: G-ER412RRHJF
+
 header_pages:
   - about.md
 
@@ -37,7 +39,7 @@ minima:
     - { platform: youtube, user_url: "https://www.youtube.com/@itsgg.youtube" }
     - { platform: rss, user_url: "/blog/feed.atom" }
   
-  google_analytics: G-ER412RRHJF
+
 
 # Build settings
 markdown: kramdown

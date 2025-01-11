@@ -11,6 +11,7 @@ source 'https://rubygems.org'
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
+gem 'csv'
 gem 'github-pages'
 gem 'jekyll'
 gem 'minima'

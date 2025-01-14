@@ -126,3 +126,8 @@ img[alt$='><'] {
     list-style-type: disc;
   }
 }
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Make LinkedIn Posts Pop with ASCII
+title: LinkedIn ASCII Art
 date: 2025-01-05 19:16 +0530
 ---
 

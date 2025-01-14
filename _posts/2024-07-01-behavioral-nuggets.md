@@ -42,9 +42,9 @@ We have a deep-seated need to control our situations.
 
 ---
 
-## 7. Certainity Effect
+## 7. Certainty Effect
 
-We crave clarity over chance and make costly sacrifices to get it.
+We tend to stick with our previous choices, even if the alternatives might be better.
 
 ---
 
@@ -68,7 +68,7 @@ We prefer the middle option in a horizontal set of choices.
 
 ## 11. Friction
 
-We'reless likely to complete a task with each step added.
+We're less likely to complete a task with each step added.
 
 ---
 
@@ -110,13 +110,13 @@ We're more persuaded by and better recall those who tell stories.
 
 ## 18. Spacing Effect
 
-We remember things better when repeated over time and across environment.s
+We remember things better when repeated over time and across environments.
 
 ---
 
 ## 19. Segregation Effect
 
-Postive experience feel better overall when we spread them out.
+Positive experience feel better overall when we spread them out.
 
 ---
 
@@ -278,7 +278,7 @@ We feel more negative when losing something than positive when we gain it.
 
 ## 46. Default Effect
 
-We ten to accept the options pre-chose for us
+We tend to accept the options pre-chose for us.
 
 ---
 
@@ -302,13 +302,13 @@ We're more likely to change if we can see a new behavior developing.
 
 ## 50. Salience
 
-Our choices are determined by the information w're shown.
+Our choices are determined by the information we're shown.
 
 ---
 
 ## 51. Measurement Paradox
 
-We engjoy experiences less when we track them.
+We enjoy experiences less when we track them.
 
 ---
 
@@ -375,7 +375,7 @@ We better remember the first and last items in a list.
 
 ## 62. Risk Aversion
 
-We don't like uncertainity and generallly stick to what we know.
+We don't like uncertainty and generally stick to what we know.
 
 ---
 
@@ -387,19 +387,19 @@ We change our behavior when given gifts that reinforce actions and goals.
 
 ## 64. Reactance
 
-We'll do the oppositve from what we're asked if we're pushed too
+We'll do the opposite from what we're asked if we're pushed too hard.
 
 ---
 
 ## 65. Present Bias
 
-What we wnat now is often the oppositve of what we aspire to in the future.
+What we want now is often the opposite of what we aspire to in the future.
 
 ---
 
 ## 66. Peak-End Rule
 
-We remember and experience by its peaks and how it ended.
+We remember and judge an experience by its peaks and how it ended.
 
 ---
 
@@ -435,7 +435,7 @@ We incorrectly transfer judgements of know attributes onto other unrelated or un
 
 ## 72. Goal Gradient Effect
 
-Our efforts increase the closer we are to taks completion.
+Our efforts increase the closer we are to task completion.
 
 ---
 
@@ -483,7 +483,7 @@ We look for information that supports our existing beliefs and ignore what doesn
 
 ## 80. Commitment
 
-Once we've made a public statement we make consistnent decisions to support it.
+Once we've made a public statement we make consistent decisions to support it.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mindfulness Practices for a Stress-Free Day
+title: Mindfulness Practices
 date: 2025-01-06 14:21 +0530
 ---
 

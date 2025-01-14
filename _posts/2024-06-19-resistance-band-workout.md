@@ -129,7 +129,7 @@ Engage in a simple full-body workout using resistance bands. Perform each exerci
 
 ## 20. Vertical Arm Extension
 
-![Verticla Arm Extension ><](/assets/2024-06-19-resistance_band_workout/vertical_arm_extension.png){: .embed_img}
+![Vertical Arm Extension ><](/assets/2024-06-19-resistance_band_workout/vertical_arm_extension.png){: .embed_img}
 
 ---
 
@@ -141,7 +141,7 @@ Engage in a simple full-body workout using resistance bands. Perform each exerci
 
 ## 22. Kneeling Crunch
 
-![Kneeling Curnch ><](/assets/2024-06-19-resistance_band_workout/kneeling_crunch.png){: .embed_img}
+![Kneeling Crunch ><](/assets/2024-06-19-resistance_band_workout/kneeling_crunch.png){: .embed_img}
 
 ---
 

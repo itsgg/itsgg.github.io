@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mastering AI Prompts
+title: AI Prompts
 date: 2024-12-18 01:37 +0800
 ---
 

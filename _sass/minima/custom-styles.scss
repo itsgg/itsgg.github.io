@@ -126,21 +126,3 @@ img[alt$='><'] {
     list-style-type: disc;
   }
 }
-
-.pagination {
-  display: flex;
-  justify-content: flex-end;
-  margin: 2em 0;
-  gap: 20px;
-}
-
-.pagination .previous,
-.pagination .next {
-  text-decoration: none;
-  color: #007acc;
-  
-  &:hover {
-    text-decoration: underline;
-    color: lighten(#007acc, 10%);
-  }
-}

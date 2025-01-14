@@ -39,8 +39,7 @@ minima:
     - { platform: youtube, user_url: "https://www.youtube.com/@itsgg.youtube" }
     - { platform: rss, user_url: "/blog/feed.atom" }
   
-paginate: 2 # Number of posts per page
-paginate_path: "/page:num/"
+
 
 # Build settings
 markdown: kramdown

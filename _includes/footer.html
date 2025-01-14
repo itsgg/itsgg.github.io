@@ -6,9 +6,9 @@
       <div class="footer-col">
         {%- if site.author %}
         <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">&copy; 2024</li>
-          {% endif -%}
+          {%- if site.author.name -%}
+            <li class="p-name">&copy; {{ site.time | date: '%Y' }}, {{ site.author.name }}</li>
+          {%- endif -%}
         </ul>
         {%- endif %}
       </div>

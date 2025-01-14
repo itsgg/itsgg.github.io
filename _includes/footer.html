@@ -4,13 +4,9 @@
   <div class="wrapper">
     <div class="footer-col-wrapper">
       <div class="footer-col">
-        {%- if site.author %}
-        <ul class="contact-list">
-          {%- if site.author.name -%}
-            <li class="p-name">&copy; {{ site.time | date: '%Y' }}, {{ site.author.name }}</li>
-          {%- endif -%}
-        </ul>
-        {%- endif %}
+        <div class="contact-list">
+          &copy; {{ site.time | date: '%Y' }}, <a href="mailto:me@itsgg.com?subject=Web%20Contact">{{ site.author.nickname }}</a>
+        </div>
       </div>
       <div class="footer-col">
         <div class="social-links right">

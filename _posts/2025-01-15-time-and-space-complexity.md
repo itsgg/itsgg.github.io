@@ -599,15 +599,15 @@ end
 ##### Memory Visualization
 ```
 Input Array:  [4, 2, 7, 1]    Only one extra variable (temp)
-              ↑  ↑            regardless of array size
-             i=0 j=1
+               ↑  ↑            regardless of array size
+              i=0 j=1
 
 Memory Used:  +---------------+
 Temp:         | temp = 4      |  O(1) extra space
               +---------------+
 
 After Swap:   [2, 4, 7, 1]    Original array modified
-              ↑  ↑            in-place
+               ↑  ↑            in-place
 ```
 
 #### O(log n) - Logarithmic Space
@@ -669,7 +669,7 @@ Memory Usage:
 +---+---+---+---+  Input Array  (n space)
 | 1 | 2 | 3 | 4 |
 +---+---+---+---+
-    +
+        +
 +---+---+---+---+  Result Array (n space)
 | 4 | 3 | 2 | 1 |
 +---+---+---+---+

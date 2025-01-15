@@ -176,7 +176,13 @@ puts first_element([1, 2, 3]) # => 1
 
 ##### Execution Steps
 
-1. Access the first element, regardless of array size.
+```
+Array: [1, 2, 3]
+         ↓
+Access:  1  2  3
+         ↑
+Result:  1
+```
 
 ---
 
@@ -206,8 +212,14 @@ puts binary_search([1, 2, 3, 4, 5], 3) # => 2
 
 ##### Execution Steps: Searching for 3 in [1, 2, 3, 4, 5]
 
-1. **Initial State**: Low = 0, High = 4
-2. **Step 1**: Check middle element (index 2 → 3). Match found!
+```
+Step 1:  [1, 2, 3, 4, 5]    Initial array
+          L     M     H      L=0, M=2, H=4
+
+         [1, 2, 3, 4, 5]    Check M=3
+              ↑
+              Found!        Target found at index 2
+```
 
 ---
 
@@ -231,10 +243,19 @@ puts linear_search([5, 3, 8, 6], 8) # => 2
 
 ##### Execution Steps: Searching for 8 in [5, 3, 8, 6]
 
-1. Compare 5. Not a match.
-2. Compare 3. Not a match.
-3. Compare 8. Match found!
-4. Total Steps: 3.
+```
+Step 1:  [5, 3, 8, 6]    Check 5
+          ↑
+          x
+
+Step 2:  [5, 3, 8, 6]    Check 3
+             ↑
+             x
+
+Step 3:  [5, 3, 8, 6]    Check 8
+                ↑
+                ✓         Found at index 2!
+```
 
 ---
 
@@ -263,16 +284,29 @@ puts bubble_sort([5, 3, 8, 6]) # => [3, 5, 6, 8]
 
 ##### Execution Steps: Sorting [5, 3, 8, 6]
 
-**Pass 1:**
-1. Compare 5 and 3 → Swap → [3, 5, 8, 6]
-2. Compare 5 and 8 → No swap → [3, 5, 8, 6]
-3. Compare 8 and 6 → Swap → [3, 5, 6, 8]
+```
+Pass 1:  [5, 3, 8, 6]    Compare 5,3
+          ↑ ↑
+         [3, 5, 8, 6]    Swap!
 
-**Pass 2:**
-1. Compare 3 and 5 → No swap
-2. Compare 5 and 6 → No swap
+         [3, 5, 8, 6]    Compare 5,8
+             ↑ ↑
+         [3, 5, 8, 6]    No swap
 
-Total Steps: 6 comparisons for 4 elements.
+         [3, 5, 8, 6]    Compare 8,6
+                ↑ ↑
+         [3, 5, 6, 8]    Swap!
+
+Pass 2:  [3, 5, 6, 8]    Compare 3,5
+          ↑ ↑
+         [3, 5, 6, 8]    No swap
+
+         [3, 5, 6, 8]    Compare 5,6
+             ↑ ↑
+         [3, 5, 6, 8]    No swap
+
+Final:   [3, 5, 6, 8]    Sorted!
+```
 
 ---
 
@@ -307,17 +341,26 @@ puts merge_sort([5, 3, 8, 6]) # => [3, 5, 6, 8]
 
 ##### Execution Steps: Sorting [5, 3, 8, 6]
 
-1. Split: [5, 3] and [8, 6].
-2. Split further: [5], [3], [8], [6].
-3. Merge sorted groups: [3, 5] and [6, 8].
-4. Final merge: [3, 5, 6, 8].
+```
+Split:   [5, 3, 8, 6]        Original array
+           /        \        Split into two
+      [5, 3]      [8, 6]    
+       /  \        /  \     Split again
+    [5]  [3]    [8]  [6]    Individual elements
+
+Merge:   [5]  [3]    [8]  [6]    Start merging
+         \   /        \   /      Compare & merge pairs
+        [3, 5]      [6, 8]      
+            \        /          Final merge
+         [3, 5, 6, 8]          Sorted array!
+```
 
 ---
 
 #### O(2ⁿ) - Exponential Time
 
-- **Definition**: The runtime doubles with each additional element in the input.
-- **Real-World Example**: Finding all possible subsets of items in a set.
+- **Definition**: The runtime grows exponentially, doubling with each additional element.
+- **Real-World Example**: Finding all possible combinations of items in a set.
 
 ##### Ruby Code Example: Generate All Subsets
 
@@ -333,22 +376,33 @@ def generate_subsets(array)
 end
 
 puts generate_subsets([1, 2, 3]).inspect
-# => [[], [3], [2], [2, 3], [1], [1, 3], [1, 2], [1, 2, 3]]
 ```
 
 ##### Execution Steps: Generating subsets of [1, 2]
-1. Start with [1, 2]
-2. Recursive calls split into:
-   - Subsets without 1: generate_subsets([2])
-   - Subsets with 1: add 1 to subsets of [2]
-3. Total subsets: [], [2], [1], [1, 2]
+
+```
+Input: [1, 2]
+
+Step 1:   []              Start with empty set
+          |
+Step 2:   [] → [1]        Add 1 to empty set
+          |
+Step 3:   [] → [1]        Add 2 to each previous set
+          |    |
+          [2]  [1,2]
+
+Results:  []              All possible subsets
+          [1]             ↑
+          [2]             Total: 2ⁿ = 4 subsets
+          [1,2]           ↓
+```
 
 ---
 
 #### O(n!) - Factorial Time
 
 - **Definition**: The runtime grows with the factorial of the input size.
-- **Real-World Example**: Finding all possible arrangements (permutations) of n items.
+- **Real-World Example**: Finding all possible arrangements of items.
 
 ##### Ruby Code Example: Generate All Permutations
 
@@ -368,18 +422,22 @@ def generate_permutations(array)
 end
 
 puts generate_permutations([1, 2, 3]).inspect
-# => [[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]]
 ```
 
-##### Execution Steps: Generating permutations of [1, 2]
-1. Start with [1, 2]
-2. For element 1:
-   - Generate permutations of [2]
-   - Add 1 to front: [1, 2]
-3. For element 2:
-   - Generate permutations of [1]
-   - Add 2 to front: [2, 1]
-4. Total permutations: [1, 2], [2, 1]
+##### Execution Steps: Generating permutations of [1, 2, 3]
+
+```
+Input: [1, 2, 3]
+
+Level 1:     [1]       [2]       [3]       Choose first number
+              |         |         |
+Level 2:    [2,3]     [1,3]     [1,2]     Arrange remaining
+             / \       / \       / \
+Level 3: [2,3] [3,2] [1,3] [3,1] [1,2] [2,1]
+
+Results:  [1,2,3]  →  [2,1,3]  →  [3,1,2]   All permutations
+          [1,3,2]  →  [2,3,1]  →  [3,2,1]   Total: 3! = 6
+```
 
 ---
 

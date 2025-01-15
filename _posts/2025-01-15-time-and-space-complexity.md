@@ -581,6 +581,147 @@ puts floyd_warshall(graph).inspect
 - **Auxiliary Space**: n×n distance matrix
 - **Total**: O(n²) space
 
+### Space Complexity Examples
+
+#### O(1) - Constant Space
+
+- **Definition**: Uses a fixed amount of memory regardless of input size.
+- **Example**: In-place array element swap
+
+```ruby
+def swap_elements(array, i, j)
+  temp = array[i]
+  array[i] = array[j]
+  array[j] = temp
+end
+```
+
+##### Memory Visualization
+```
+Input Array:  [4, 2, 7, 1]    Only one extra variable (temp)
+              ↑  ↑            regardless of array size
+             i=0 j=1
+
+Memory Used:  +---------------+
+Temp:         | temp = 4      |  O(1) extra space
+              +---------------+
+
+After Swap:   [2, 4, 7, 1]    Original array modified
+              ↑  ↑            in-place
+```
+
+#### O(log n) - Logarithmic Space
+
+- **Definition**: Memory usage grows logarithmically with input size.
+- **Example**: Recursive binary search call stack
+
+```ruby
+def binary_search_recursive(array, target, low = 0, high = array.length - 1)
+  return -1 if low > high
+  mid = (low + high) / 2
+  return mid if array[mid] == target
+  array[mid] < target ? binary_search_recursive(array, target, mid + 1, high) :
+                       binary_search_recursive(array, target, low, mid - 1)
+end
+```
+
+##### Memory Visualization
+```
+Input: [1, 2, 3, 4, 5, 6, 7, 8]
+
+Call Stack Growth (searching for 7):
+                                        Stack Frames
++------------------+                 +---------------+
+|[1,2,3,4,5,6,7,8] |  First call     | low=0, high=7 |
++------------------+                 +---------------+
+         ↓                                  ↓
++------------------+                 +---------------+
+|    [5,6,7,8]     |  Second call    | low=4, high=7 |
++------------------+                 +---------------+
+         ↓                                  ↓
++------------------+                 +---------------+
+|      [7,8]       |  Third call     | low=6, high=7 |
++------------------+                 +---------------+
+
+Total Space: O(log n) stack frames
+```
+
+#### O(n) - Linear Space
+
+- **Definition**: Memory usage grows linearly with input size.
+- **Example**: Creating a reversed copy of an array
+
+```ruby
+def reverse_copy(array)
+  result = Array.new(array.length)
+  array.each_with_index { |elem, i| result[array.length - 1 - i] = elem }
+  result
+end
+```
+
+##### Memory Visualization
+```
+Input:    [1, 2, 3, 4]    Original array (n elements)
+           ↓  ↓  ↓  ↓     Each element copied
+Result:   [4, 3, 2, 1]    New array (n elements)
+
+Memory Usage:
++---+---+---+---+  Input Array  (n space)
+| 1 | 2 | 3 | 4 |
++---+---+---+---+
+    +
++---+---+---+---+  Result Array (n space)
+| 4 | 3 | 2 | 1 |
++---+---+---+---+
+
+Total Space: O(n)
+```
+
+#### O(n²) - Quadratic Space
+
+- **Definition**: Memory usage grows quadratically with input size.
+- **Example**: Creating a distance matrix for graph vertices
+
+```ruby
+def create_distance_matrix(vertices)
+  Array.new(vertices.length) { |i|
+    Array.new(vertices.length) { |j|
+      calculate_distance(vertices[i], vertices[j])
+    }
+  }
+end
+```
+
+##### Memory Visualization
+```
+Input Vertices: [A, B, C]    3 vertices
+
+Distance Matrix:
+     A   B   C
+   +---+---+---+
+A  | 0 | 2 | 5 |     Each cell stores a
+   +---+---+---+     distance value
+B  | 2 | 0 | 4 |
+   +---+---+---+     Total cells = n × n
+C  | 5 | 4 | 0 |
+   +---+---+---+
+
+Memory Growth Pattern:
+n = 2:  4 cells   [■ ■]
+                  [■ ■]
+
+n = 3:  9 cells   [■ ■ ■]
+                  [■ ■ ■]
+                  [■ ■ ■]
+
+n = 4: 16 cells   [■ ■ ■ ■]
+                  [■ ■ ■ ■]
+                  [■ ■ ■ ■]
+                  [■ ■ ■ ■]
+
+Total Space: O(n²)
+```
+
 ### Summary and Best Practices
 
 | **Space Complexity** | **Best Used When**                 | **Trade-offs**                 |

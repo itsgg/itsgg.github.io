@@ -15,24 +15,15 @@ Before diving into specific complexities, let's understand **Big-O Notation**, w
 Big-O notation helps us analyze algorithms in terms of their scalability and efficiency. It answers the question: "How does the performance or space requirements grow as the input size grows?"
 
 ```
-Growth Rate
-│
-│   O(n!)
-│    ╱
-│   ╱ O(2ⁿ)
-│  ╱  ╱
-│ ╱  ╱
-│╱  ╱     O(n²)
-│  ╱     ╱
-│ ╱    ╭╯   O(n log n)
-│╱   ╭╯    ╱
-│  ╭╯    ╱    O(n)
-│╭╯    ╱    ╱
-│    ╱    ╱     O(log n)
-│  ╱   ╱       ╱
-│╱  ╱      ╱    O(1)
-└─────────────────────────
-           Input Size
+Impact:    Operations for n=5:      Visualization:
+-------    -----------------      ---------------
+O(1)       1                     ▏        Excellent!
+O(log n)   2                     ▎        Great!
+O(n)       5                     ▍        Good
+O(n log n) 11                    █        Fair
+O(n²)      25                    ████     Poor
+O(2ⁿ)      32                    █████    Bad
+O(n!)      120                   ████████ Terrible!
 ```
 
 #### Key Characteristics

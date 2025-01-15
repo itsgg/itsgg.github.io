@@ -156,13 +156,15 @@ Time complexity describes how the runtime of an algorithm changes as the size of
 
 ### Common Time Complexities
 
-| **Complexity** | **Description**                                   | **Real-World Analogy**              | **Example Algorithm**       |
+| **Complexity** | **Description**                                   | **Real-World Analogy**                | **Example Algorithm**       |
 | -------------- | ------------------------------------------------- | ----------------------------------- | --------------------------- |
 | O(1)           | Constant time, independent of input size          | Accessing the first locker in a row | Accessing an array by index |
 | O(log n)       | Logarithmic growth, halves input at each step     | Finding a name in a phone book      | Binary Search               |
 | O(n)           | Linear growth, proportional to input size         | Reading every book on a shelf       | Linear Search               |
-| O(n²)          | Quadratic growth, nested comparisons              | Comparing all students in a class   | Bubble Sort, Selection Sort |
 | O(n log n)     | Linearithmic growth, efficient divide-and-conquer | Sorting multiple card decks         | Merge Sort, Quick Sort      |
+| O(n²)          | Quadratic growth, nested comparisons              | Comparing all students in a class   | Bubble Sort, Selection Sort |
+| O(2ⁿ)          | Exponential growth, doubles with each new element | Trying all combinations of a lock   | Generate all subsets        |
+| O(n!)          | Factorial growth, all possible arrangements       | Arranging people in all orders      | Generate all permutations   |
 
 ### Common Algorithm Examples
 
@@ -318,6 +320,75 @@ puts merge_sort([5, 3, 8, 6]) # => [3, 5, 6, 8]
 2. Split further: [5], [3], [8], [6].
 3. Merge sorted groups: [3, 5] and [6, 8].
 4. Final merge: [3, 5, 6, 8].
+
+---
+
+#### O(2ⁿ) - Exponential Time
+
+- **Definition**: The runtime doubles with each additional element in the input.
+- **Real-World Example**: Finding all possible subsets of items in a set.
+
+##### Ruby Code Example: Generate All Subsets
+
+```ruby
+def generate_subsets(array)
+  return [[]] if array.empty?
+  
+  element = array[0]
+  subsets_without = generate_subsets(array[1..-1])
+  subsets_with = subsets_without.map { |subset| subset + [element] }
+  
+  subsets_without + subsets_with
+end
+
+puts generate_subsets([1, 2, 3]).inspect
+# => [[], [3], [2], [2, 3], [1], [1, 3], [1, 2], [1, 2, 3]]
+```
+
+##### Execution Steps: Generating subsets of [1, 2]
+1. Start with [1, 2]
+2. Recursive calls split into:
+   - Subsets without 1: generate_subsets([2])
+   - Subsets with 1: add 1 to subsets of [2]
+3. Total subsets: [], [2], [1], [1, 2]
+
+---
+
+#### O(n!) - Factorial Time
+
+- **Definition**: The runtime grows with the factorial of the input size.
+- **Real-World Example**: Finding all possible arrangements (permutations) of n items.
+
+##### Ruby Code Example: Generate All Permutations
+
+```ruby
+def generate_permutations(array)
+  return [array] if array.length <= 1
+  
+  permutations = []
+  array.each_with_index do |element, index|
+    remaining = array[0...index] + array[index + 1..-1]
+    generate_permutations(remaining).each do |perm|
+      permutations << [element] + perm
+    end
+  end
+  
+  permutations
+end
+
+puts generate_permutations([1, 2, 3]).inspect
+# => [[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]]
+```
+
+##### Execution Steps: Generating permutations of [1, 2]
+1. Start with [1, 2]
+2. For element 1:
+   - Generate permutations of [2]
+   - Add 1 to front: [1, 2]
+3. For element 2:
+   - Generate permutations of [1]
+   - Add 2 to front: [2, 1]
+4. Total permutations: [1, 2], [2, 1]
 
 ---
 

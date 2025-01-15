@@ -38,13 +38,11 @@ Growth Rate
 #### Key Characteristics
 
 1. **Focuses on Growth Rate**
-
    - Ignores constants and smaller terms
    - O(2n) is simplified to O(n)
    - O(n² + n) is simplified to O(n²)
 
 2. **Worst-Case Scenario**
-
    - Represents upper bound of growth
    - Helps in planning for the worst situation
    - Example: Linear search worst case is O(n), even though it might find the element immediately
@@ -119,17 +117,14 @@ Growth Rate
 #### Common Misconceptions
 
 1. **Big-O is Not Exact Time**
-
    - O(1) doesn't mean "instant"
    - O(n²) might be faster than O(n) for small inputs
    - It's about growth rate, not absolute performance
 
 2. **Constants Do Matter in Practice**
-
    - While O(100n) simplifies to O(n)
    - The constant 100 still affects real-world performance
    - Use Big-O for high-level comparison, not micro-optimization
-
 3. **Best Case vs Average Case**
    - Big-O typically shows worst case
    - Quick Sort: O(n log n) average, O(n²) worst case

@@ -4,7 +4,7 @@ title: Time and Space Complexity
 date: 2025-01-15 14:31:00 +0530
 ---
 
-When designing algorithms, understanding **time complexity** and **space complexity** is crucial for writing efficient, scalable solutions.
+Understanding time complexity and space complexity is fundamental to writing efficient, scalable code. This guide explores Big-O notation and common complexity patterns through practical examples and real-world analogies.
 
 ## Introduction
 

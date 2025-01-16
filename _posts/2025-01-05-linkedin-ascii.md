@@ -11,9 +11,9 @@ LinkedIn doesn’t support rich-text formatting, but that doesn’t mean your po
 Headers and dividers help structure your content and make it easier to follow. Use characters like =, -, or * to break sections.
 
 ```text
-=========================
+==================
 ✨ KEY INSIGHTS ✨
-=========================
+==================
 ```
 
 ## Add Bullet Points
@@ -43,9 +43,9 @@ For announcements or standout sections, create a framed effect.
 
 ```text
 📦 [ NEW LAUNCH ] 📦
-================================
+===============================
 Introducing our latest product!
-================================
+===============================
 ```
 
 ## Align Content with Spacing
@@ -73,10 +73,6 @@ Use emojis strategically to add personality and visual interest to your posts. A
 ## Keep Lines Short
 
 Break your content into short, digestible lines to improve readability.
-
-```text
-Break your content into short, digestible lines to improve readability.
-```
 
 ## Conclude with a Call-to-Action
 

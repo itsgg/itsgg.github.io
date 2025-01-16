@@ -4,7 +4,7 @@ title: Mindfulness Practices
 date: 2025-01-06 14:21 +0530
 ---
 
-In today’s fast-paced world, mindfulness isn’t just a luxury—it’s a necessity. Practicing mindfulness throughout your day can help you reduce stress, improve focus, and cultivate a sense of inner peace.
+In today’s fast-paced world, mindfulness isn’t just a luxury, it’s a necessity. Practicing mindfulness throughout your day can help you reduce stress, improve focus, and cultivate a sense of inner peace.
 
 The best part? You don’t need to carve out hours of your day. Here are 10 simple mindfulness practices you can seamlessly integrate into your daily routine.
 
@@ -49,7 +49,7 @@ The best part? You don’t need to carve out hours of your day. Here are 10 simp
 
 ## Anchor in the Present
 
-- Choose a physical sensation as your “anchor”—it could be your breath, the feeling of your hands, or the sounds around you.
+- Choose a physical sensation as your “anchor”, it could be your breath, the feeling of your hands, or the sounds around you.
 - Whenever your mind starts to wander, gently bring your attention back to this anchor.
 
 ---
@@ -97,4 +97,4 @@ The best part? You don’t need to carve out hours of your day. Here are 10 simp
 
 - You don’t need to implement all these practices at once.
 - Start with one or two and build from there.
-- Mindfulness is a journey, not a destination—every small step counts.
+- Mindfulness is a journey, not a destination, every small step counts.

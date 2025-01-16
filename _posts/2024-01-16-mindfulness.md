@@ -6,38 +6,38 @@ date: 2024-01-16 00:00:00 +0530
 
 Mindfulness is simply paying full attention to what's happening around you and inside you, in the present moment, without any judgement.
 
-## 1. Find a Quiet Spot
+## Find a Quiet Spot
 
-Choose a peaceful place where you won’t be disturbed. It can be indoors or outdoors.
+Choose a peaceful place where you won't be disturbed. It can be indoors or outdoors.
 
-## 2. Get Comfortable
+## Get Comfortable
 
 Sit or lie down in a comfortable position. You can sit on a chair, cushion, or on the floor. Keep your back straight to prevent drowsiness.
 
-## 3. Close Your Eyes
+## Close Your Eyes
 
 Gently close your eyes or lower your gaze to reduce visual distractions.
 
-## 4. Focus on Your Breath
+## Focus on Your Breath
 
 Pay attention to your breathing. Notice the sensation of air entering and leaving your nostrils, or the rise and fall of your belly.
 
-## 5. Notice when Your Mind Wanders
+## Notice when Your Mind Wanders
 
-It’s natural for your mind to wander. When you notice this happening, gently redirect your attention back to your breath.
+It's natural for your mind to wander. When you notice this happening, gently redirect your attention back to your breath.
 
-## 6. Don’t Judge Your Thoughts
+## Don't Judge Your Thoughts
 
 Try not to judge your thoughts or get involved with them. Simply observe them as they come and go.
 
-## 7. Stay in the Moment
+## Stay in the Moment
 
-Keep bringing your focus back to the present. Notice any sounds, smells, or sensations you’re experiencing.
+Keep bringing your focus back to the present. Notice any sounds, smells, or sensations you're experiencing.
 
-## 8. Start with short Sessions
+## Start with short Sessions
 
 Begin with 5-10 minutes a day and gradually increase the duration as you get more comfortable with the practice.
 
-## 9. Be Patient
+## Be Patient
 
-Mindfulness takes practice. Don’t be hard on yourself if you find it challenging at first.
+Mindfulness takes practice. Don't be hard on yourself if you find it challenging at first.

@@ -6,7 +6,7 @@ date: 2024-12-18 01:37 +0800
 
 Learn how to craft clear, precise, and effective prompts to get the most accurate and valuable responses from AI models.
 
-## 1. Clarity and Precision
+## Clarity and Precision
 
 ### Be Clear and Specific
 
@@ -23,7 +23,7 @@ Provide details relevant to your request.
 
 ---
 
-## 2. Break Down Complex Questions
+## Break Down Complex Questions
 
 ### Divide Large Queries into Smaller Parts
 
@@ -36,7 +36,7 @@ Split large or multi-part questions into smaller, manageable parts.
 
 ---
 
-## 3. Specify the Output Format
+## Specify the Output Format
 
 ### Request a Structured Response
 
@@ -50,7 +50,7 @@ Tell me how you want the answer to be presented:
 
 ---
 
-## 4. Provide Context or Background
+## Provide Context or Background
 
 ### Share Relevant Details
 
@@ -60,7 +60,7 @@ Give me relevant details about your goals, audience, or existing work.
 
 ---
 
-## 5. Define Constraints or Boundaries
+## Define Constraints or Boundaries
 
 ### Set Limits for the Response
 
@@ -73,7 +73,7 @@ Tell me any limits to follow for a more relevant response.
 
 ---
 
-## 6. Iterative Refinement
+## Iterative Refinement
 
 ### Improve Responses with Follow-Ups
 
@@ -84,7 +84,7 @@ If the response isn’t what you expected:
 
 ---
 
-## 7. Ask for Examples or Use Cases
+## Ask for Examples or Use Cases
 
 ### Request Real-World Applications
 
@@ -94,7 +94,7 @@ If applicable, ask for real-world applications or scenarios.
 
 ---
 
-## 8. Request Step-by-Step Instructions
+## Request Step-by-Step Instructions
 
 ### Ask for a Process Breakdown
 
@@ -104,7 +104,7 @@ For processes or tutorials, request a breakdown.
 
 ---
 
-## 9. Ask for Comparisons
+## Ask for Comparisons
 
 ### Compare Options or Approaches
 
@@ -114,7 +114,7 @@ If you’re exploring options, request a comparison.
 
 ---
 
-## 10. Define the Tone and Depth
+## Define the Tone and Depth
 
 ### Specify the Desired Style
 
@@ -127,9 +127,9 @@ Specify how detailed or simple you want the response.
 
 ---
 
-## 11. Provide Examples for Clarity
+## Provide Examples for Clarity
 
-### Show What You’re Looking For
+### Show What You're Looking For
 
 If you want a certain style, format, or type of answer, share an example.
 
@@ -137,7 +137,7 @@ If you want a certain style, format, or type of answer, share an example.
 
 ---
 
-## 12. Use “Do Not” Clauses
+## Use "Do Not" Clauses
 
 ### Avoid Unwanted Details
 
@@ -160,25 +160,25 @@ If you want me to avoid something, mention it.
 
 ## Examples of Improved Prompts
 
-### 1. From Vague to Specific
+### From Vague to Specific
 
 - **Vague**: "Tell me about hyperlocal apps."
 - **Improved**:  
    "What are the key features of successful hyperlocal apps that focus on people and businesses? Provide examples and suggest an ideal tech stack."
 
-### 2. Step-by-Step Requests
+### Step-by-Step Requests
 
 - **Vague**: "How do I use MongoDB?"
 - **Improved**:  
    "Can you give a step-by-step guide to set up MongoDB with a Node.js backend using the Express framework?"
 
-### 3. Contextual Questions
+### Contextual Questions
 
 - **Vague**: "I need a marketing plan."
 - **Improved**:  
    "Suggest a 6-month marketing plan for my hyperlocal app focusing on user acquisition in small cities in India. Assume a limited budget."
 
-### 4. Exploring Ideas
+### Exploring Ideas
 
 - **Vague**: "What are some good startup ideas?"
 - **Improved**:  

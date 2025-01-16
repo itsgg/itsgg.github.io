@@ -8,11 +8,11 @@ Understanding time complexity and space complexity is fundamental to writing eff
 
 ## Introduction
 
-Before diving into specific complexities, let's understand **Big-O Notation**, which provides a high-level abstraction of both time and space complexity. Big-O describes how an algorithm's resource usage (time or space) grows as the input size increases, focusing on the worst-case scenario.
+Before diving into specific complexities, let's understand **Big-O Notation**, which provides a high-level abstraction of both time and space complexity.
 
 ### Understanding Big-O
 
-Big-O notation helps us analyze algorithms in terms of their scalability and efficiency. It answers the question: "How does the performance or space requirements grow as the input size grows?"
+Big-O notation helps us analyze algorithms in terms of their scalability and efficiency. It answers the question: "How does the performance or space requirements grow as the input size grows?, focusing on the worst-case scenario."
 
 ```
 Impact:    Operations for n=5:      Visualization:

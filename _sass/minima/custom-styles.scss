@@ -20,19 +20,31 @@ img[alt$='<'] {
 }
 
 h1 {
-  color: #e2e9f4 !important;
+  color: #9370DB !important;
+  a {
+    color: #9370DB !important;
+  }
 }
 
 h2 {
-  color: #c6d4ea !important;
+  color: #BDB76B !important;
+  a {
+    color: #BDB76B !important;
+  }
 }
 
 h3 {
-  color: #a9bedf !important;
+    color: #87CEEB !important;
+  a {
+    color: #87CEEB !important;
+  }
 }
 
 h4 {
-  color: #8da9d5 !important;
+  color: #FF7F7F !important;
+  a {
+    color: #FF7F7F !important;
+  }
 }
 
 h1 a, h2 a, h3 a {

@@ -6,11 +6,11 @@ date: 2025-01-15 14:31:00 +0530
 
 Understanding time complexity and space complexity is fundamental to writing efficient, scalable code. This guide explores Big-O notation and common complexity patterns through practical examples and real-world analogies.
 
-## Introduction
+## 1. Introduction
 
 Before diving into specific complexities, let's understand **Big-O Notation**, which provides a high-level abstraction of both time and space complexity.
 
-### Understanding Big-O
+### 1.1 Understanding Big-O
 
 Big-O notation helps us analyze algorithms in terms of their scalability and efficiency. It answers the question: "How does the performance or space requirements grow as the input size grows?, focusing on the worst-case scenario."
 
@@ -26,7 +26,7 @@ O(2ⁿ)      32                    █████    Bad
 O(n!)      120                   ████████ Terrible!
 ```
 
-#### Key Characteristics
+#### 1.1.1 Key Characteristics
 
 1. **Focuses on Growth Rate**
    - Ignores constants and smaller terms
@@ -43,7 +43,7 @@ O(n!)      120                   ████████ Terrible!
    - Small input differences become irrelevant
    - Important for scalability analysis
 
-#### Common Rules
+#### 1.1.2 Common Rules
 
 1. **Drop Constants**
 
@@ -74,7 +74,7 @@ O(n!)      120                   ████████ Terrible!
    end
    ```
 
-#### Practical Examples
+#### 1.1.3 Practical Examples
 
 1. **Constant Time - O(1)**
 
@@ -105,7 +105,7 @@ O(n!)      120                   ████████ Terrible!
    end
    ```
 
-#### Common Misconceptions
+#### 1.1.4 Common Misconceptions
 
 1. **Big-O is Not Exact Time**
    - O(1) doesn't mean "instant"
@@ -121,7 +121,7 @@ O(n!)      120                   ████████ Terrible!
    - Quick Sort: O(n log n) average, O(n²) worst case
    - Consider your use case when choosing algorithms
 
-#### Comparing Growth Rates
+#### 1.1.5 Comparing Growth Rates
 
 From fastest to slowest growth:
 
@@ -141,11 +141,11 @@ For example, with n = 1000:
 
 ---
 
-## Time Complexity
+## 2. Time Complexity
 
 Time complexity describes how the runtime of an algorithm changes as the size of the input grows.
 
-### Common Time Complexities
+### 2.1 Common Time Complexities
 
 | **Complexity** | **Description**                                   | **Real-World Analogy**                | **Example Algorithm**       |
 | -------------- | ------------------------------------------------- | ----------------------------------- | --------------------------- |
@@ -157,9 +157,9 @@ Time complexity describes how the runtime of an algorithm changes as the size of
 | O(2ⁿ)          | Exponential growth, doubles with each new element | Trying all combinations of a lock   | Generate all subsets        |
 | O(n!)          | Factorial growth, all possible arrangements       | Arranging people in all orders      | Generate all permutations   |
 
-### Common Algorithm Examples
+### 2.2 Common Algorithm Examples
 
-#### O(1) - Constant Time
+#### 2.2.1 O(1) - Constant Time
 
 - **Definition**: The algorithm's runtime does not depend on the input size.
 - **Real-World Example**: Picking the first book on a shelf takes the same time whether there are 5 or 500 books.
@@ -186,7 +186,7 @@ Result:  1
 
 ---
 
-#### O(log n) - Logarithmic Time
+#### 2.2.2 O(log n) - Logarithmic Time
 
 - **Definition**: The runtime grows logarithmically as the input size increases, typically in divide-and-conquer algorithms.
 - **Real-World Example**: Searching for a name in a sorted phone book by repeatedly halving the search range.
@@ -223,7 +223,7 @@ Step 1:  [1, 2, 3, 4, 5]    Initial array
 
 ---
 
-#### O(n) - Linear Time
+#### 2.2.3 O(n) - Linear Time
 
 - **Definition**: The runtime grows linearly with the input size.
 - **Real-World Example**: Finding a specific book on a shelf by checking each book sequentially.
@@ -259,7 +259,7 @@ Step 3:  [5, 3, 8, 6]    Check 8
 
 ---
 
-#### O(n²) - Quadratic Time
+#### 2.2.4 O(n²) - Quadratic Time
 
 - **Definition**: The runtime grows quadratically with input size due to nested iterations.
 - **Real-World Example**: Comparing every student in a classroom to every other student to find matching handwriting.
@@ -310,7 +310,7 @@ Final:   [3, 5, 6, 8]    Sorted!
 
 ---
 
-#### O(n log n) - Linearithmic Time
+#### 2.2.5 O(n log n) - Linearithmic Time
 
 - **Definition**: The runtime grows faster than O(n) but slower than O(n²), often in divide-and-conquer sorting.
 - **Real-World Example**: Sorting cards by repeatedly dividing and merging groups.
@@ -357,7 +357,7 @@ Merge:   [5]  [3]    [8]  [6]    Start merging
 
 ---
 
-#### O(2ⁿ) - Exponential Time
+#### 2.2.6 O(2ⁿ) - Exponential Time
 
 - **Definition**: The runtime grows exponentially, doubling with each additional element.
 - **Real-World Example**: Finding all possible combinations of items in a set.
@@ -399,7 +399,7 @@ Results:  []              All possible subsets
 
 ---
 
-#### O(n!) - Factorial Time
+#### 2.2.7 O(n!) - Factorial Time
 
 - **Definition**: The runtime grows with the factorial of the input size.
 - **Real-World Example**: Finding all possible arrangements of items.

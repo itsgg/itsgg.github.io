@@ -6,7 +6,7 @@ date: 2024-12-18 16:26 +0800
 
 Stretches that are convenient and effective for improving flexibility and relieving tension throughout the body.
 
-## Neck Stretch
+## 1. Neck Stretch
 
 - Stand with your feet hip-width apart.
 - Gently tilt your head to one side, bringing your ear towards your shoulder.
@@ -14,7 +14,7 @@ Stretches that are convenient and effective for improving flexibility and reliev
 
 ---
 
-## Standing Shoulder Stretch
+## 2. Standing Shoulder Stretch
 
 - Stand tall and bring one arm across your body.
 - Use your opposite arm to gently pull the arm closer to your chest.
@@ -22,7 +22,7 @@ Stretches that are convenient and effective for improving flexibility and reliev
 
 ---
 
-## Standing Side Stretch
+## 3. Standing Side Stretch
 
 - Stand with feet hip-width apart.
 - Raise one arm overhead and lean to the opposite side, keeping the other arm relaxed at your side.
@@ -30,7 +30,7 @@ Stretches that are convenient and effective for improving flexibility and reliev
 
 ---
 
-## Standing Quadriceps Stretch
+## 4. Standing Quadriceps Stretch
 
 - Stand on one leg and pull the opposite foot towards your buttocks.
 - Keep your knees close together and push your hips forward slightly.
@@ -38,7 +38,7 @@ Stretches that are convenient and effective for improving flexibility and reliev
 
 ---
 
-## Standing Hamstring Stretch
+## 5. Standing Hamstring Stretch
 
 - Stand with feet hip-width apart.
 - Extend one leg forward, keeping the heel on the ground and toes pointing up.
@@ -47,7 +47,7 @@ Stretches that are convenient and effective for improving flexibility and reliev
 
 ---
 
-## Calf Stretch
+## 6. Calf Stretch
 
 - Stand facing a wall with one foot forward and the other back.
 - Keep both heels on the ground and bend the front knee.

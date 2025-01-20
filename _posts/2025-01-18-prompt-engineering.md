@@ -30,12 +30,12 @@ Prompt engineering is the process of designing inputs (prompts) to guide LLMs in
 
 ### 1.2 Example
 
-#### User
+#### 1.2.1 User
 
 > Summarize this text under 50 characters, focusing on core ideas.
 > "Prompt engineering is the process of designing effective inputs for AI systems to achieve specific outputs. This ensures accuracy and relevance, saving time and tailoring responses for tasks."
 
-#### Assistant
+#### 1.2.2 Assistant
 
 > Designing AI inputs for accuracy and relevance.
 
@@ -66,8 +66,6 @@ Prompt engineering is the process of designing inputs (prompts) to guide LLMs in
     - a. Customizing AI behaviour for specific tasks.
     - b. Improving accuracy in outputs.
     - **c. Training the AI on new datasets.**
-
----
 
 ## 2. What Are LLMs?
 
@@ -127,8 +125,6 @@ Convert an input sequence into an output sequence, such as translation or summar
     - ***b. They lack updated knowledge beyond their training period.***
     - c. They are incapable of generating text.  
     
----
-
 ## 3. Basic Techniques
 
 - Keep it clear and concise.
@@ -195,8 +191,6 @@ Did the prompt minimize unnecessary details?
     - b. Minimal words.
     - c.d Complex vocabulary.  
 
----
-
 ## 4. Intermediate Techniques
 
 ### 4.1 Prompt Chaining
@@ -245,11 +239,11 @@ Testing, evaluating, and tweaking prompts to improve their quality.
 
 > Write a summary of a report on the enviromental benefits of renewable energy.
 
-##### First Refinement
+##### 4.3.1.1 First Refinement
 
 > Summarize the environmental benefits of renewable energy. Include examples of benefits like reduced emissions and biodiversity perservation.
 
-##### Second Refinement
+##### 4.3.1.2 Second Refinement
 
 > Write a 200-word summary on the environmental benefits of renewable energy. Focus on reduced carbon emissions, biodiversity preservation, and air quality improvements. Tailor the summary for a general audience. Use a persuasive tone.
 
@@ -279,8 +273,6 @@ Testing, evaluating, and tweaking prompts to improve their quality.
     - b. To make the AI generate random responses.
     - c. To eliminate the need for clear instructions.
 
----
-
 ## 5. Advanced Optimization
 
 ### 5.1 Parameter Tuning
@@ -291,15 +283,15 @@ Testing, evaluating, and tweaking prompts to improve their quality.
 
 Controls randomness. Lower values (e.g., 0.2) yield more deterministic outputs, while higher values (e.g., 0.8) produce creative and varied responses.
 
-##### Low Temperature
+##### 5.1.1.1 Low Temperature
 
 > Generate a business name for an AI startup that incorporates variations of the words 'human' and 'artificial. Keep the name under 3 words.
 
-##### Medium Temperature
+##### 5.1.1.2 Medium Temperature
 
 > Generate a business name for an AI startup.
 
-##### High Temperature
+##### 5.1.1.3 High Temperature
 
 > Generate a creative business name for an AI startup.
 
@@ -327,13 +319,13 @@ Simulate the behaviour of stop sequence using effective prompts.
 
 Designing prompts to address ambiguous or rare scenarios.
 
-**Example:** If the question cannot be answered, say “I don't know” instead of guessing.
+**Example:** If the question cannot be answered, say "I don't know" instead of guessing.
 
 ### 5.3 Improving Efficiency
 
 Crafting concise prompts that yield the desired output without unnecessary complexity.
 
-**Example:** Instead of “Explain why solar energy is useful”, use “List three benefits of solar energy.”
+**Example:** Instead of "Explain why solar energy is useful", use "List three benefits of solar energy."
 
 ### 5.4 Review
 
@@ -357,11 +349,9 @@ Crafting concise prompts that yield the desired output without unnecessary compl
     - **b. To specify where the AI should stop, avoiding irrelevant content.**
     - c. To increase randomness in responses.  
 3. **Which of the following is an example of improving prompt efficiency?**
-    - a. _“Explain why solar energy is useful.”_
-    - **b. _“List three benefits of solar energy.”_**
-    - c. _“Write a detailed article on renewable energy.”_
-
----
+    - a. "Explain why solar energy is useful."
+    - **b. "List three benefits of solar energy."**
+    - c. "Write a detailed article on renewable energy."
 
 ## 6. Real-World Applications
 
@@ -369,7 +359,7 @@ Crafting concise prompts that yield the desired output without unnecessary compl
 
 Tailor prompts for specific fields like content creation, coding, customer service, or education.
 
-#### Example
+#### 6.1.1 Example
 
 > Generate a 300 word blog post about the benefits of AI in education.
 
@@ -377,7 +367,7 @@ Tailor prompts for specific fields like content creation, coding, customer servi
 
 Use prompts dynamically within workflows (e.g., generating responses in a chatbot or summarizing lengthy documents).
 
-#### Example
+#### 6.2.1 Example
 
 > Summarize the attached text in bullet points for a business presentation.
 
@@ -385,7 +375,7 @@ Use prompts dynamically within workflows (e.g., generating responses in a chatbo
 
 Avoid bias by framing neutral and inclusive prompts
 
-#### Example
+#### 6.3.1 Example
 
 > Provide an unbiased overview of the advantages and disadvantages of remote work.
 

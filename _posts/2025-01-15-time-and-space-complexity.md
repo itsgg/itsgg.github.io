@@ -14,26 +14,26 @@ Before diving into specific complexities, let's understand **Big-O Notation**, w
 
 Big-O notation helps us analyze algorithms in terms of their scalability and efficiency. It answers the question: "How does the performance or space requirements grow as the input size grows?, focusing on the worst-case scenario."
 
-```
-Impact:    Operations for n=5:      Visualization:
--------    -----------------      ---------------
-O(1)       1                     ▏        Excellent!
-O(log n)   2                     ▎        Great!
-O(n)       5                     ▍        Good
-O(n log n) 11                    █        Fair
-O(n²)      25                    ████     Poor
-O(2ⁿ)      32                    █████    Bad
-O(n!)      120                   ████████ Terrible!
-```
+| Impact    | Operations for n=5 | Visualization | Rating     |
+|-----------|-------------------|----------------|------------|
+| O(1)      | 1                 | ▏              | Excellent! |
+| O(log n)  | 2                 | ▎              | Great!     |
+| O(n)      | 5                 | ▍              | Good       |
+| O(n log n)| 11                | █              | Fair       |
+| O(n²)     | 25                | ████           | Poor       |
+| O(2ⁿ)     | 32                | █████          | Bad        |
+| O(n!)     | 120               | ████████       | Terrible!  |
 
 #### 1.1.1 Key Characteristics
 
 1. **Focuses on Growth Rate**
+
    - Ignores constants and smaller terms
    - O(2n) is simplified to O(n)
    - O(n² + n) is simplified to O(n²)
 
 2. **Worst-Case Scenario**
+
    - Represents upper bound of growth
    - Helps in planning for the worst situation
    - Example: Linear search worst case is O(n), even though it might find the element immediately
@@ -65,6 +65,7 @@ O(n!)      120                   ████████ Terrible!
    ```
 
 3. **Different Variables**
+
    ```ruby
    # O(n * m) - cannot be simplified if n ≠ m
    array1.each do |x|
@@ -95,6 +96,7 @@ O(n!)      120                   ████████ Terrible!
    ```
 
 3. **Quadratic Time - O(n²)**
+
    ```ruby
    def nested_loops(array)
      array.each do |x|
@@ -108,6 +110,7 @@ O(n!)      120                   ████████ Terrible!
 #### 1.1.4 Common Misconceptions
 
 1. **Big-O is Not Exact Time**
+
    - O(1) doesn't mean "instant"
    - O(n²) might be faster than O(n) for small inputs
    - It's about growth rate, not absolute performance
@@ -147,7 +150,7 @@ Time complexity describes how the runtime of an algorithm changes as the size of
 
 ### 2.1 Common Time Complexities
 
-| **Complexity** | **Description**                                   | **Real-World Analogy**                | **Example Algorithm**       |
+| **Complexity** | **Description**                                   | **Real-World Analogy**              | **Example Algorithm**       |
 | -------------- | ------------------------------------------------- | ----------------------------------- | --------------------------- |
 | O(1)           | Constant time, independent of input size          | Accessing the first locker in a row | Accessing an array by index |
 | O(log n)       | Logarithmic growth, halves input at each step     | Finding a name in a phone book      | Binary Search               |
@@ -176,7 +179,7 @@ puts first_element([1, 2, 3]) # => 1
 
 ##### Execution Steps
 
-```
+```text
 Array: [1, 2, 3]
          ↓
 Access:  1  2  3
@@ -212,7 +215,7 @@ puts binary_search([1, 2, 3, 4, 5], 3) # => 2
 
 ##### Execution Steps: Searching for 3 in [1, 2, 3, 4, 5]
 
-```
+```text
 Step 1:  [1, 2, 3, 4, 5]    Initial array
           L     M     H      L=0, M=2, H=4
 
@@ -243,7 +246,7 @@ puts linear_search([5, 3, 8, 6], 8) # => 2
 
 ##### Execution Steps: Searching for 8 in [5, 3, 8, 6]
 
-```
+```text
 Step 1:  [5, 3, 8, 6]    Check 5
           ↑
           x
@@ -282,9 +285,9 @@ end
 puts bubble_sort([5, 3, 8, 6]) # => [3, 5, 6, 8]
 ```
 
-##### Execution Steps: Sorting [5, 3, 8, 6]
+##### Execution Steps: Sorting [5, 3, 8, 6] using Bubble Sort
 
-```
+```text
 Pass 1:  [5, 3, 8, 6]    Compare 5,3
           ↑ ↑
          [3, 5, 8, 6]    Swap!
@@ -339,18 +342,18 @@ end
 puts merge_sort([5, 3, 8, 6]) # => [3, 5, 6, 8]
 ```
 
-##### Execution Steps: Sorting [5, 3, 8, 6]
+##### Execution Steps: Sorting [5, 3, 8, 6] using Merge Sort
 
-```
+```text
 Split:   [5, 3, 8, 6]        Original array
            /        \        Split into two
-      [5, 3]      [8, 6]    
+      [5, 3]      [8, 6]
        /  \        /  \     Split again
     [5]  [3]    [8]  [6]    Individual elements
 
 Merge:   [5]  [3]    [8]  [6]    Start merging
          \   /        \   /      Compare & merge pairs
-        [3, 5]      [6, 8]      
+        [3, 5]      [6, 8]
             \        /          Final merge
          [3, 5, 6, 8]          Sorted array!
 ```
@@ -367,11 +370,11 @@ Merge:   [5]  [3]    [8]  [6]    Start merging
 ```ruby
 def generate_subsets(array)
   return [[]] if array.empty?
-  
+
   element = array[0]
   subsets_without = generate_subsets(array[1..-1])
   subsets_with = subsets_without.map { |subset| subset + [element] }
-  
+
   subsets_without + subsets_with
 end
 
@@ -380,7 +383,7 @@ puts generate_subsets([1, 2, 3]).inspect
 
 ##### Execution Steps: Generating subsets of [1, 2]
 
-```
+```text
 Input: [1, 2]
 
 Step 1:   []              Start with empty set
@@ -409,7 +412,7 @@ Results:  []              All possible subsets
 ```ruby
 def generate_permutations(array)
   return [array] if array.length <= 1
-  
+
   permutations = []
   array.each_with_index do |element, index|
     remaining = array[0...index] + array[index + 1..-1]
@@ -417,7 +420,7 @@ def generate_permutations(array)
       permutations << [element] + perm
     end
   end
-  
+
   permutations
 end
 
@@ -426,7 +429,7 @@ puts generate_permutations([1, 2, 3]).inspect
 
 ##### Execution Steps: Generating permutations of [1, 2, 3]
 
-```
+```text
 Input: [1, 2, 3]
 
 Level 1:     [1]       [2]       [3]       Choose first number
@@ -480,6 +483,7 @@ puts swap_numbers(5, 3).inspect # => [3, 5]
 ```
 
 ##### Memory Analysis for O(1)
+
 - **Input Space**: Two variables (a, b)
 - **Auxiliary Space**: One temporary variable (temp)
 - **Total**: O(1) - constant space
@@ -509,6 +513,7 @@ puts binary_search_recursive([1, 2, 3, 4, 5], 3) # => 2
 ```
 
 ##### Memory Analysis for O(log n)
+
 - **Input Space**: Array and target value
 - **Auxiliary Space**: Recursive call stack (log n levels deep)
 - **Total**: O(log n) space
@@ -537,6 +542,7 @@ puts merge_sort_space_example([5, 3, 8, 6]).inspect # => [3, 5, 6, 8]
 ```
 
 ##### Memory Analysis for O(n)
+
 - **Input Space**: Original array
 - **Auxiliary Space**: Two subarrays of size n/2
 - **Total**: O(n) space
@@ -577,13 +583,14 @@ puts floyd_warshall(graph).inspect
 ```
 
 ##### Memory Analysis for O(n²)
+
 - **Input Space**: Original n×n graph
 - **Auxiliary Space**: n×n distance matrix
 - **Total**: O(n²) space
 
 ### Space Complexity Examples
 
-#### O(1) - Constant Space
+#### O(1) - Constant Space Complexity
 
 - **Definition**: Uses a fixed amount of memory regardless of input size.
 - **Example**: In-place array element swap
@@ -597,7 +604,8 @@ end
 ```
 
 ##### Memory Visualization
-```
+
+```text
 Input Array:  [4, 2, 7, 1]    Only one extra variable (temp)
                ↑  ↑            regardless of array size
               i=0 j=1
@@ -610,7 +618,7 @@ After Swap:   [2, 4, 7, 1]    Original array modified
                ↑  ↑            in-place
 ```
 
-#### O(log n) - Logarithmic Space
+#### O(log n) - Logarithmic Space Complexity
 
 - **Definition**: Memory usage grows logarithmically with input size.
 - **Example**: Recursive binary search call stack
@@ -625,8 +633,9 @@ def binary_search_recursive(array, target, low = 0, high = array.length - 1)
 end
 ```
 
-##### Memory Visualization
-```
+##### Memory Visualization (Searching for 7 in [1, 2, 3, 4, 5, 6, 7, 8])
+
+```text
 Input: [1, 2, 3, 4, 5, 6, 7, 8]
 
 Call Stack Growth (searching for 7):
@@ -646,7 +655,7 @@ Call Stack Growth (searching for 7):
 Total Space: O(log n) stack frames
 ```
 
-#### O(n) - Linear Space
+#### O(n) - Linear Space Complexity
 
 - **Definition**: Memory usage grows linearly with input size.
 - **Example**: Creating a reversed copy of an array
@@ -659,8 +668,9 @@ def reverse_copy(array)
 end
 ```
 
-##### Memory Visualization
-```
+##### Memory Visualization (Reversing [1, 2, 3, 4])
+
+```text
 Input:    [1, 2, 3, 4]    Original array (n elements)
            ↓  ↓  ↓  ↓     Each element copied
 Result:   [4, 3, 2, 1]    New array (n elements)
@@ -677,7 +687,7 @@ Memory Usage:
 Total Space: O(n)
 ```
 
-#### O(n²) - Quadratic Space
+#### O(n²) - Quadratic Space Complexity
 
 - **Definition**: Memory usage grows quadratically with input size.
 - **Example**: Creating a distance matrix for graph vertices
@@ -692,8 +702,9 @@ def create_distance_matrix(vertices)
 end
 ```
 
-##### Memory Visualization
-```
+##### Memory Visualization (Calculating Distances for [A, B, C])
+
+```text
 Input Vertices: [A, B, C]    3 vertices
 
 Distance Matrix:

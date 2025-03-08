@@ -70,10 +70,11 @@ img[alt$='><'] {
 
 .profile_img,
 .embed_img {
-  background: black;
-  border-radius: 10px;
+  background: #222;
+  border-radius: 10px;  
+  padding: 0 !important;
   margin: 10px;
-  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+  border: 2px solid #333;
 }
 
 .profile_img {
@@ -99,12 +100,12 @@ img[alt$='><'] {
 .site-header {
   background-color: #111;
   border-top: 5px solid #111;
-  border-bottom: 4px solid #222;
+  border-bottom: 2px solid #222;
 }
 
 .site-footer {
   background-color: #111;
-  border-top: 4px solid #222;
+  border-top: 2px solid #222;
 }
 
 .footer-col-wrapper {

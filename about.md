@@ -6,7 +6,7 @@ permalink: /about/
 
 ## Ganesh Gunasegaran (GG)
 
-![GG alt >](/assets/images/gg.jpg){: .profile_img}
+![GG alt >](/assets/images/gg.png){: .profile_img}
 
 > In stillness, I find strength. In acceptance, I embrace freedom. In action, I shape my destiny.
 

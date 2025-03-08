@@ -106,6 +106,7 @@ img[alt$='><'] {
 .site-footer {
   background-color: #111;
   border-top: 2px solid #222;
+  padding: 20px 0;
 }
 
 .footer-col-wrapper {
@@ -116,6 +117,10 @@ img[alt$='><'] {
 
 .footer-col:first-child {
   flex: 1;
+}
+
+.footer-col {
+  margin: 0;
 }
 
 .footer-col:last-child {

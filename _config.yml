@@ -22,8 +22,6 @@ author:
 description: >-
   The Architect
 
-show_excerpts: true
-
 google_analytics: G-ER412RRHJF
 
 header_pages:
@@ -31,11 +29,13 @@ header_pages:
 
 minima:
   skin: dark
+  show_excerpts: true
   social_links:
-    - { platform: github, user_url: "https://github.com/itsgg" }
-    - { platform: twitter, user_url: "https://twitter.com/itsgg" }
-    - { platform: youtube, user_url: "https://www.youtube.com/@itsgg.youtube" }
-    - { platform: rss, user_url: "/blog/feed.atom" }
+    - { title: linkedin, url: "https://www.linkedin.com/in/itsgg", icon: linkedin }
+    - { title: github, url: "https://github.com/itsgg", icon: github }
+    - { title: twitter, url: "https://twitter.com/itsgg", icon: x-twitter }
+    - { title: youtube, url: "https://www.youtube.com/@itsgg.youtube", icon: youtube }
+    - { title: rss, url: "/blog/feed.atom", icon: stack-exchange }
   
 paginate: 5
 paginate_path: "/page/:num/"

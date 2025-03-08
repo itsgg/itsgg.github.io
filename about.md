@@ -8,7 +8,7 @@ permalink: /about/
 
 ![GG alt >](/assets/images/gg.jpg){: .profile_img}
 
-> Fusing tech with mind to forge the future.
+> In stillness, I find strength. In acceptance, I embrace freedom. In action, I shape my destiny.
 
 You can reach me at [me@itsgg.com](mailto:me@itsgg.com?subject=Web%20Contact).
 

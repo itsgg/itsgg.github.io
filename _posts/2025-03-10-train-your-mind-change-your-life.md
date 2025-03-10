@@ -48,40 +48,35 @@ Similarly, Dr. Carol Dweck (*Mindset*) found that **people who believe they can 
 
 ### Actionable Steps: Training Your Mind
 
-#### 1. The Thought Audit
+### Actionable Steps: Training Your Mind
 
-The first step to mental mastery is **awareness**.
+Each morning, take **5 minutes** to reprogram your mind:
 
-- **Step 1:** Write down your **recurring thoughts** for a day.
-- **Step 2:** Label each as **empowering** or **limiting**.
-- **Step 3:** Replace every limiting thought with a powerful alternative.
+#### 1. Capture Your Thoughts
 
-##### Example:
+- Write down a recurring thought from yesterday.
 
-❌ *"I'm not good at this."*
+#### 2. Label It
 
-✅ *"I am still learning, and progress is inevitable."*
+- Is it **empowering** or **limiting**?
 
----
+#### 2. Reframe It
 
-#### 2. The Morning Mental Reset
+- if it's limiting, rewrite it in a **positive and proactive way**.
 
-Each morning, **set your mind up for clarity and focus**:
+#### 3. Set Your Focus for the Day
 
-- **What is one thing I control today?**
-- **What empowering belief will I choose?**
-- **What mental clutter will I let go of?**
+- What is one thing I control today?
+- What empowering belief will I choose?
+- What mental clutter will I let go of?
 
-##### Example:
+***Example***
 
-Instead of waking up thinking, *"Today will be stressful,"*
-
-reframe it as, *"Today is an opportunity to grow, and I control my response."*
+- *"I’m not good at this."* → *"I am learning, and progress is inevitable."* 
+- *"Today will be stressful."* → *"Today is an opportunity to grow, and I control my response."*
 
 > [!TIP]
 > **Your morning mindset shapes your entire day. Train it wisely.**
-
----
 
 ### Reflection: You Are the Architect of Your Mind
 

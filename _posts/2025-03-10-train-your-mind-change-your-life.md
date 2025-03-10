@@ -48,8 +48,6 @@ Similarly, Dr. Carol Dweck (*Mindset*) found that **people who believe they can 
 
 ### Actionable Steps: Training Your Mind
 
-### Actionable Steps: Training Your Mind
-
 Each morning, take **5 minutes** to reprogram your mind:
 
 #### 1. Capture Your Thoughts

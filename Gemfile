@@ -23,6 +23,7 @@ gem 'webrick'
 group :jekyll_plugins do
   gem 'jekyll-compose'
   gem 'jekyll-feed'
+  gem 'jekyll-gfm-admonitions'
   gem 'jekyll-paginate'
   gem 'jekyll-relative-links'
   gem 'jekyll-remote-theme'

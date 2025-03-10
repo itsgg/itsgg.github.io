@@ -70,11 +70,16 @@ img[alt$='><'] {
 
 .profile_img,
 .embed_img {
-  background: #222;
+  background: #202020;
   border-radius: 10px;  
   padding: 0 !important;
   margin: 10px;
-  border: 2px solid #333;
+  border: 2px solid #303030;
+}
+
+.markdown-alert {
+  background: #202020;
+  border: 2px solid #303030;
 }
 
 .profile_img {

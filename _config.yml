@@ -47,6 +47,7 @@ feed:
 plugins:
   - jekyll-compose
   - jekyll-feed
+  - jekyll-gfm-admonitions
   - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-relative-links

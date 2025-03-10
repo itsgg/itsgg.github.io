@@ -83,7 +83,7 @@ reframe it as, *"Today is an opportunity to grow, and I am controlling my respon
 
 ---
 
-### Reflection: You Are Not Your Thoughts - You Are the Architect of Your Mind
+### Reflection: You Are the Architect of Your Mind
 
 You are not your fears, doubts, or limitations.
 

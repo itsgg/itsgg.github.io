@@ -10,7 +10,7 @@ permalink: /about/
 
 > In stillness, I find strength. In acceptance, I embrace freedom. In action, I shape my destiny.
 
-You can reach me at [me@itsgg.com](mailto:me@itsgg.com?subject=Web%20Contact).
+You can [email me](mailto:me@itsgg.com?subject=Web%20Contact){:target="_blank"} or [schedule a meeting](https://contact.itsgg.com/hello){:target="_blank"}.
 
 ### Disclaimer
 

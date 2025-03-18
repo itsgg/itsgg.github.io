@@ -25,17 +25,17 @@ Before diving into specific complexities, let's understand **Big-O Notation**, w
 
 ### Understanding Big-O
 
-Big-O notation helps us analyze algorithms in terms of their scalability and efficiency. It answers the question: "How does the performance or space requirements grow as the input size grows?, focusing on the worst-case scenario."
+Big-O notation helps us analyze algorithms in terms of their scalability and efficiency. It answers the question: "How does the performance or space requirements grow as the input size grows, focusing on the worst-case scenario?"
 
-| Impact    | Operations for n=5 | Visualization | Rating     |
-|-----------|-------------------|----------------|------------|
-| O(1)      | 1                 | ▏              | Excellent! |
-| O(log n)  | 2                 | ▎              | Great!     |
-| O(n)      | 5                 | ▍              | Good       |
-| O(n log n)| 11                | █              | Fair       |
-| O(n²)     | 25                | ████           | Poor       |
-| O(2ⁿ)     | 32                | █████          | Bad        |
-| O(n!)     | 120               | ████████       | Terrible!  |
+| Impact     | Operations for n=5 | Visualization | Rating     |
+| ---------- | ------------------ | ------------- | ---------- |
+| O(1)       | 1                  | ▏             | Excellent! |
+| O(log n)   | 2                  | ▎             | Great!     |
+| O(n)       | 5                  | ▍             | Good       |
+| O(n log n) | 11                 | █             | Fair       |
+| O(n²)      | 25                 | ████          | Poor       |
+| O(2ⁿ)      | 32                 | █████         | Bad        |
+| O(n!)      | 120                | ████████      | Terrible!  |
 
 #### Key Characteristics
 
@@ -178,11 +178,11 @@ Time complexity describes how the runtime of an algorithm changes as the size of
 - **Definition**: The algorithm's runtime does not depend on the input size.
 - **Real-World Example**: Picking the first book on a shelf takes the same time whether there are 5 or 500 books.
 
-##### Ruby Code Example
+##### Accessing an element by index
 
 ```ruby
 def first_element(array)
-  array[0] # Accessing an element by index is O(1)
+  array[0]
 end
 
 puts first_element([1, 2, 3]) # => 1
@@ -205,7 +205,7 @@ Result:  1
 - **Definition**: The runtime grows logarithmically as the input size increases, typically in divide-and-conquer algorithms.
 - **Real-World Example**: Searching for a name in a sorted phone book by repeatedly halving the search range.
 
-##### Ruby Code Example: Binary Search
+##### Binary Search
 
 ```ruby
 def binary_search(array, target)
@@ -242,7 +242,7 @@ Step 1:  [1, 2, 3, 4, 5]    Initial array
 - **Definition**: The runtime grows linearly with the input size.
 - **Real-World Example**: Finding a specific book on a shelf by checking each book sequentially.
 
-##### Ruby Code Example: Linear Search
+##### Linear Search
 
 ```ruby
 def linear_search(array, target)
@@ -278,7 +278,7 @@ Step 3:  [5, 3, 8, 6]    Check 8
 - **Definition**: The runtime grows quadratically with input size due to nested iterations.
 - **Real-World Example**: Comparing every student in a classroom to every other student to find matching handwriting.
 
-##### Ruby Code Example: Bubble Sort
+##### Bubble Sort
 
 ```ruby
 def bubble_sort(array)
@@ -329,7 +329,7 @@ Final:   [3, 5, 6, 8]    Sorted!
 - **Definition**: The runtime grows faster than O(n) but slower than O(n²), often in divide-and-conquer sorting.
 - **Real-World Example**: Sorting cards by repeatedly dividing and merging groups.
 
-##### Ruby Code Example: Merge Sort
+##### Merge Sort
 
 ```ruby
 def merge_sort(array)
@@ -376,7 +376,7 @@ Merge:   [5]  [3]    [8]  [6]    Start merging
 - **Definition**: The runtime grows exponentially, doubling with each additional element.
 - **Real-World Example**: Finding all possible combinations of items in a set.
 
-##### Ruby Code Example: Generate All Subsets
+##### Generate All Subsets
 
 ```ruby
 def generate_subsets(array)
@@ -418,7 +418,7 @@ Results:  []              All possible subsets
 - **Definition**: The runtime grows with the factorial of the input size.
 - **Real-World Example**: Finding all possible arrangements of items.
 
-##### Ruby Code Example: Generate All Permutations
+##### Generate All Permutations
 
 ```ruby
 def generate_permutations(array)
@@ -480,7 +480,7 @@ Space complexity consists of two main components:
 - **Definition**: The algorithm uses a fixed amount of memory, regardless of input size.
 - **Real-World Example**: Using a calculator to add numbers - it needs the same memory whether adding small or large numbers.
 
-##### Ruby Code Example: Number Swap
+##### Number Swap
 
 ```ruby
 def swap_numbers(a, b)
@@ -504,7 +504,7 @@ puts swap_numbers(5, 3).inspect # => [3, 5]
 - **Definition**: The algorithm's memory usage grows logarithmically with input size, often due to recursive call stack.
 - **Real-World Example**: Using a stack of cards in binary search, where we only track the middle card at each step.
 
-##### Ruby Code Example: Recursive Binary Search
+##### Recursive Binary Search
 
 ```ruby
 def binary_search_recursive(array, target, low = 0, high = array.length - 1)
@@ -534,7 +534,7 @@ puts binary_search_recursive([1, 2, 3, 4, 5], 3) # => 2
 - **Definition**: The algorithm's memory usage grows linearly with input size.
 - **Real-World Example**: Making a copy of a deck of cards - you need space proportional to the number of cards.
 
-##### Ruby Code Example: Merge Sort (Space Focus)
+##### Merge Sort (Space Focus)
 
 ```ruby
 def merge_sort_space_example(array)
@@ -563,7 +563,7 @@ puts merge_sort_space_example([5, 3, 8, 6]).inspect # => [3, 5, 6, 8]
 - **Definition**: The algorithm's memory usage grows quadratically with input size.
 - **Real-World Example**: Creating a chess board where each square stores all possible moves from that position.
 
-##### Ruby Code Example: All Pairs Shortest Path
+##### All Pairs Shortest Path
 
 ```ruby
 def floyd_warshall(graph)
@@ -616,6 +616,8 @@ end
 
 ##### Memory Visualization
 
+> Swapping elements in an array
+
 ```text
 Input Array:  [4, 2, 7, 1]    Only one extra variable (temp)
                ↑  ↑            regardless of array size
@@ -644,7 +646,9 @@ def binary_search_recursive(array, target, low = 0, high = array.length - 1)
 end
 ```
 
-##### Memory Visualization (Searching for 7 in [1, 2, 3, 4, 5, 6, 7, 8])
+##### Memory Visualization
+
+> Searching for 7 in [1, 2, 3, 4, 5, 6, 7, 8]
 
 ```text
 Input: [1, 2, 3, 4, 5, 6, 7, 8]
@@ -679,7 +683,9 @@ def reverse_copy(array)
 end
 ```
 
-##### Memory Visualization (Reversing [1, 2, 3, 4])
+##### Memory Visualization
+
+> Reversing [1, 2, 3, 4]
 
 ```text
 Input:    [1, 2, 3, 4]    Original array (n elements)
@@ -713,7 +719,9 @@ def create_distance_matrix(vertices)
 end
 ```
 
-##### Memory Visualization (Calculating Distances for [A, B, C])
+##### Memory Visualization
+
+> Calculating Distances for [A, B, C]
 
 ```text
 Input Vertices: [A, B, C]    3 vertices
@@ -789,11 +797,13 @@ end
 ## Best Practices
 
 1. **Profile Before Optimizing**
+
    - Measure actual performance
    - Identify bottlenecks
    - Focus on high-impact areas
 
 2. **Consider Trade-offs**
+
    - Memory vs Speed
    - Code complexity vs Performance
    - Development time vs Runtime efficiency

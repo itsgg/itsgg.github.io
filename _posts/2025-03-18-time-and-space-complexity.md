@@ -8,22 +8,28 @@ date: 2025-03-18 16:03 +0530
 
 In the world of software engineering, understanding time and space complexity isn't just about passing technical interviews - it's about building systems that scale gracefully. This comprehensive guide will transform you from a complexity novice to a performance optimization expert.
 
+## Introduction
+
 Understanding time complexity and space complexity is fundamental to writing efficient, scalable code. This guide explores Big-O notation and common complexity patterns through practical examples and real-world analogies.
 
-## Why Complexity Matters
+### Why Complexity Matters
 
 Before diving into the technical details, let's understand why complexity analysis is crucial:
 
-1. **Performance at Scale**: A solution that works well with 100 items might fail miserably with 1 million
-2. **Resource Efficiency**: Understanding space complexity helps prevent memory leaks and excessive resource usage
-3. **System Design**: Complexity analysis is fundamental to designing scalable architectures
-4. **Cost Optimization**: Better complexity often means lower infrastructure costs
+#### Performance at Scale
+- A solution that works well with 100 items might fail miserably with 1 million
 
-## Introduction
+#### Resource Efficiency
+- Understanding space complexity helps prevent memory leaks and excessive resource usage
 
-Before diving into specific complexities, let's understand **Big-O Notation**, which provides a high-level abstraction of both time and space complexity.
+#### System Design
+- Complexity analysis is fundamental to designing scalable architectures
 
-### Understanding Big-O
+#### Cost Optimization
+
+- Better complexity often means lower infrastructure costs
+
+### Understanding Big-O Notation
 
 Big-O notation helps us analyze algorithms in terms of their scalability and efficiency. It answers the question: "How does the performance or space requirements grow as the input size grows, focusing on the worst-case scenario?"
 
@@ -39,103 +45,107 @@ Big-O notation helps us analyze algorithms in terms of their scalability and eff
 
 #### Key Characteristics
 
-1. **Focuses on Growth Rate**
+##### Focuses on Growth Rate
 
-   - Ignores constants and smaller terms
-   - O(2n) is simplified to O(n)
-   - O(n² + n) is simplified to O(n²)
+- Ignores constants and smaller terms
+- O(2n) is simplified to O(n)
+- O(n² + n) is simplified to O(n²)
 
-2. **Worst-Case Scenario**
+##### Worst-Case Scenario
 
-   - Represents upper bound of growth
-   - Helps in planning for the worst situation
-   - Example: Linear search worst case is O(n), even though it might find the element immediately
+- Represents upper bound of growth
+- Helps in planning for the worst situation
+- Example: Linear search worst case is O(n), even though it might find the element immediately
 
-3. **Asymptotic Behavior**
-   - Considers behavior with large inputs
-   - Small input differences become irrelevant
-   - Important for scalability analysis
+##### Asymptotic Behavior
+
+- Considers behavior with large inputs
+- Small input differences become irrelevant
+- Important for scalability analysis
 
 #### Common Rules
 
-1. **Drop Constants**
+##### Drop Constants
 
-   ```ruby
-   # O(2n) → O(n)
-   array.each { |x| puts x }  # First loop
-   array.each { |x| puts x }  # Second loop
-   ```
+```ruby
+# O(2n) → O(n)
+array.each { |x| puts x }  # First loop
+array.each { |x| puts x }  # Second loop
+```
 
-2. **Drop Lower Order Terms**
+##### Drop Lower Order Terms
 
-   ```ruby
-   # O(n² + n) → O(n²)
-   array.each do |x|        # O(n)
-    array.each do |y|      # O(n²)
-      puts x + y
-    end
-   end
-   ```
+```ruby
+# O(n² + n) → O(n²)
+array.each do |x|        # O(n)
+ array.each do |y|      # O(n²)
+   puts x + y
+ end
+end
+```
 
-3. **Different Variables**
+##### Different Variables
 
-   ```ruby
-   # O(n * m) - cannot be simplified if n ≠ m
-   array1.each do |x|
-     array2.each do |y|
-       puts x + y
-     end
-   end
-   ```
+```ruby
+# O(n * m) - cannot be simplified if n ≠ m
+array1.each do |x|
+  array2.each do |y|
+    puts x + y
+  end
+end
+```
 
 #### Practical Examples
 
-1. **Constant Time - O(1)**
+##### Constant Time - O(1)
 
-   ```ruby
-   def get_first(array)
-     array[0]   # Always one operation
-   end
-   ```
+```ruby
+def get_first(array)
+  array[0]   # Always one operation
+end
+```
 
-2. **Linear Time - O(n)**
+##### Linear Time - O(n)
 
-   ```ruby
-   def sum_array(array)
-     sum = 0
-     array.each { |x| sum += x }  # Operations grow linearly
-     sum
-   end
-   ```
+```ruby
+def sum_array(array)
+  sum = 0
+  array.each { |x| sum += x }  # Operations grow linearly
+  sum
+end
+```
 
-3. **Quadratic Time - O(n²)**
+##### Quadratic Time - O(n²)
 
-   ```ruby
-   def nested_loops(array)
-     array.each do |x|
-       array.each do |y|    # Nested loop creates quadratic growth
-         puts x + y
-       end
-     end
-   end
-   ```
+```ruby
+def nested_loops(array)
+  array.each do |x|
+    array.each do |y|    # Nested loop creates quadratic growth
+      puts x + y
+    end
+  end
+end
+```
 
 #### Common Misconceptions
 
-1. **Big-O is Not Exact Time**
+##### Big-O is Not Exact Time
 
-   - O(1) doesn't mean "instant"
-   - O(n²) might be faster than O(n) for small inputs
-   - It's about growth rate, not absolute performance
+- O(1) doesn't mean "instant"
+- O(n²) might be faster than O(n) for small inputs
+- It's about growth rate, not absolute performance
 
-2. **Constants Do Matter in Practice**
-   - While O(100n) simplifies to O(n)
-   - The constant 100 still affects real-world performance
-   - Use Big-O for high-level comparison, not micro-optimization
-3. **Best Case vs Average Case**
-   - Big-O typically shows worst case
-   - Quick Sort: O(n log n) average, O(n²) worst case
-   - Consider your use case when choosing algorithms
+##### Constants Do Matter in Practice
+
+- While O(100n) simplifies to O(n)
+- The constant 100 still affects real-world performance
+- Use Big-O for high-level comparison, not micro-optimization
+
+##### Best Case vs Average Case
+
+- Big-O typically shows worst case
+- Quick Sort: O(n log n) average, O(n²) worst case
+- Consider your use case when choosing algorithms
 
 #### Comparing Growth Rates
 
@@ -171,7 +181,7 @@ Time complexity describes how the runtime of an algorithm changes as the size of
 | O(2ⁿ)          | Exponential growth, doubles with each new element | Trying all combinations of a lock   | Generate all subsets        |
 | O(n!)          | Factorial growth, all possible arrangements       | Arranging people in all orders      | Generate all permutations   |
 
-### Common Algorithm Examples
+### Time Complexity Examples
 
 #### O(1) - Constant Time
 
@@ -224,7 +234,9 @@ end
 puts binary_search([1, 2, 3, 4, 5], 3) # => 2
 ```
 
-##### Execution Steps: Searching for 3 in [1, 2, 3, 4, 5]
+##### Execution Steps
+
+_Searching for 3 in [1, 2, 3, 4, 5]_
 
 ```text
 Step 1:  [1, 2, 3, 4, 5]    Initial array
@@ -255,7 +267,9 @@ end
 puts linear_search([5, 3, 8, 6], 8) # => 2
 ```
 
-##### Execution Steps: Searching for 8 in [5, 3, 8, 6]
+##### Execution Steps
+
+_Searching for 8 in [5, 3, 8, 6]_
 
 ```text
 Step 1:  [5, 3, 8, 6]    Check 5
@@ -296,7 +310,9 @@ end
 puts bubble_sort([5, 3, 8, 6]) # => [3, 5, 6, 8]
 ```
 
-##### Execution Steps: Sorting [5, 3, 8, 6] using Bubble Sort
+##### Execution Steps
+
+_Sorting [5, 3, 8, 6] using Bubble Sort_
 
 ```text
 Pass 1:  [5, 3, 8, 6]    Compare 5,3
@@ -353,7 +369,9 @@ end
 puts merge_sort([5, 3, 8, 6]) # => [3, 5, 6, 8]
 ```
 
-##### Execution Steps: Sorting [5, 3, 8, 6] using Merge Sort
+##### Execution Steps
+
+_Sorting [5, 3, 8, 6] using Merge Sort_
 
 ```text
 Split:   [5, 3, 8, 6]        Original array
@@ -392,7 +410,9 @@ end
 puts generate_subsets([1, 2, 3]).inspect
 ```
 
-##### Execution Steps: Generating subsets of [1, 2]
+##### Execution Steps
+
+_Generating subsets of [1, 2]_
 
 ```text
 Input: [1, 2]
@@ -438,7 +458,9 @@ end
 puts generate_permutations([1, 2, 3]).inspect
 ```
 
-##### Execution Steps: Generating permutations of [1, 2, 3]
+##### Execution Steps
+
+_Generating permutations of [1, 2, 3]_
 
 ```text
 Input: [1, 2, 3]
@@ -459,10 +481,13 @@ Results:  [1,2,3]  →  [2,1,3]  →  [3,1,2]   All permutations
 
 While time complexity focuses on execution speed, space complexity measures memory usage. Understanding both is essential for writing efficient algorithms.
 
-Space complexity consists of two main components:
+### Components of Space Complexity
 
-1. **Input Space**: Memory required to store the input data
-2. **Auxiliary Space**: Additional memory used during computation
+#### Input Space
+- Memory required to store the input data
+
+#### Auxiliary Space
+- Additional memory used during computation
 
 ### Common Space Complexities
 
@@ -473,135 +498,9 @@ Space complexity consists of two main components:
 | O(n)           | Linear space for auxiliary structures | Making a copy of a deck of cards    | Merge Sort                |
 | O(n²)          | Quadratic space for nested tables     | Chess board with all possible moves | Dynamic Programming (2D)  |
 
-### Common Algorithm Examples
-
-#### O(1) - Constant Space
-
-- **Definition**: The algorithm uses a fixed amount of memory, regardless of input size.
-- **Real-World Example**: Using a calculator to add numbers - it needs the same memory whether adding small or large numbers.
-
-##### Number Swap
-
-```ruby
-def swap_numbers(a, b)
-  temp = a    # One extra variable regardless of input size
-  a = b
-  b = temp
-  [a, b]
-end
-
-puts swap_numbers(5, 3).inspect # => [3, 5]
-```
-
-##### Memory Analysis for O(1)
-
-- **Input Space**: Two variables (a, b)
-- **Auxiliary Space**: One temporary variable (temp)
-- **Total**: O(1) - constant space
-
-#### O(log n) - Logarithmic Space
-
-- **Definition**: The algorithm's memory usage grows logarithmically with input size, often due to recursive call stack.
-- **Real-World Example**: Using a stack of cards in binary search, where we only track the middle card at each step.
-
-##### Recursive Binary Search
-
-```ruby
-def binary_search_recursive(array, target, low = 0, high = array.length - 1)
-  return -1 if low > high
-
-  mid = (low + high) / 2
-  return mid if array[mid] == target
-
-  if array[mid] < target
-    binary_search_recursive(array, target, mid + 1, high)
-  else
-    binary_search_recursive(array, target, low, mid - 1)
-  end
-end
-
-puts binary_search_recursive([1, 2, 3, 4, 5], 3) # => 2
-```
-
-##### Memory Analysis for O(log n)
-
-- **Input Space**: Array and target value
-- **Auxiliary Space**: Recursive call stack (log n levels deep)
-- **Total**: O(log n) space
-
-#### O(n) - Linear Space
-
-- **Definition**: The algorithm's memory usage grows linearly with input size.
-- **Real-World Example**: Making a copy of a deck of cards - you need space proportional to the number of cards.
-
-##### Merge Sort (Space Focus)
-
-```ruby
-def merge_sort_space_example(array)
-  return array if array.length <= 1
-
-  mid = array.length / 2
-  left = array[0...mid].clone    # O(n/2) space
-  right = array[mid..].clone     # O(n/2) space
-
-  # Total O(n) auxiliary space used
-  merge(merge_sort_space_example(left),
-        merge_sort_space_example(right))
-end
-
-puts merge_sort_space_example([5, 3, 8, 6]).inspect # => [3, 5, 6, 8]
-```
-
-##### Memory Analysis for O(n)
-
-- **Input Space**: Original array
-- **Auxiliary Space**: Two subarrays of size n/2
-- **Total**: O(n) space
-
-#### O(n²) - Quadratic Space
-
-- **Definition**: The algorithm's memory usage grows quadratically with input size.
-- **Real-World Example**: Creating a chess board where each square stores all possible moves from that position.
-
-##### All Pairs Shortest Path
-
-```ruby
-def floyd_warshall(graph)
-  n = graph.length
-  # Create n×n distance matrix
-  dist = Array.new(n) { |i| Array.new(n) { |j| graph[i][j] } }
-
-  n.times do |k|
-    n.times do |i|
-      n.times do |j|
-        if dist[i][k] && dist[k][j] &&
-           (dist[i][j].nil? || dist[i][k] + dist[k][j] < dist[i][j])
-          dist[i][j] = dist[i][k] + dist[k][j]
-        end
-      end
-    end
-  end
-  dist
-end
-
-graph = [
-  [0, 5, nil, 10],
-  [nil, 0, 3, nil],
-  [nil, nil, 0, 1],
-  [nil, nil, nil, 0]
-]
-puts floyd_warshall(graph).inspect
-```
-
-##### Memory Analysis for O(n²)
-
-- **Input Space**: Original n×n graph
-- **Auxiliary Space**: n×n distance matrix
-- **Total**: O(n²) space
-
 ### Space Complexity Examples
 
-#### O(1) - Constant Space Complexity
+#### O(1) - Constant Space
 
 - **Definition**: Uses a fixed amount of memory regardless of input size.
 - **Example**: In-place array element swap
@@ -616,7 +515,7 @@ end
 
 ##### Memory Visualization
 
-> Swapping elements in an array
+_Swapping elements in an array_
 
 ```text
 Input Array:  [4, 2, 7, 1]    Only one extra variable (temp)
@@ -631,7 +530,7 @@ After Swap:   [2, 4, 7, 1]    Original array modified
                ↑  ↑            in-place
 ```
 
-#### O(log n) - Logarithmic Space Complexity
+#### O(log n) - Logarithmic Space
 
 - **Definition**: Memory usage grows logarithmically with input size.
 - **Example**: Recursive binary search call stack
@@ -648,7 +547,7 @@ end
 
 ##### Memory Visualization
 
-> Searching for 7 in [1, 2, 3, 4, 5, 6, 7, 8]
+_Searching for 7 in [1, 2, 3, 4, 5, 6, 7, 8]_
 
 ```text
 Input: [1, 2, 3, 4, 5, 6, 7, 8]
@@ -670,7 +569,7 @@ Call Stack Growth (searching for 7):
 Total Space: O(log n) stack frames
 ```
 
-#### O(n) - Linear Space Complexity
+#### O(n) - Linear Space
 
 - **Definition**: Memory usage grows linearly with input size.
 - **Example**: Creating a reversed copy of an array
@@ -685,7 +584,7 @@ end
 
 ##### Memory Visualization
 
-> Reversing [1, 2, 3, 4]
+_Reversing [1, 2, 3, 4]_
 
 ```text
 Input:    [1, 2, 3, 4]    Original array (n elements)
@@ -704,7 +603,7 @@ Memory Usage:
 Total Space: O(n)
 ```
 
-#### O(n²) - Quadratic Space Complexity
+#### O(n²) - Quadratic Space
 
 - **Definition**: Memory usage grows quadratically with input size.
 - **Example**: Creating a distance matrix for graph vertices
@@ -721,7 +620,7 @@ end
 
 ##### Memory Visualization
 
-> Calculating Distances for [A, B, C]
+_Calculating Distances for [A, B, C]_
 
 ```text
 Input Vertices: [A, B, C]    3 vertices
@@ -752,7 +651,7 @@ n = 4: 16 cells   [■ ■ ■ ■]
 Total Space: O(n²)
 ```
 
-### Summary and Best Practices
+### Space Complexity Summary
 
 | **Space Complexity** | **Best Used When**                 | **Trade-offs**                 |
 | -------------------- | ---------------------------------- | ------------------------------ |
@@ -796,22 +695,23 @@ end
 
 ## Best Practices
 
-1. **Profile Before Optimizing**
+### Profile Before Optimizing
 
-   - Measure actual performance
-   - Identify bottlenecks
-   - Focus on high-impact areas
+- Measure actual performance
+- Identify bottlenecks
+- Focus on high-impact areas
 
-2. **Consider Trade-offs**
+### Consider Trade-offs
 
-   - Memory vs Speed
-   - Code complexity vs Performance
-   - Development time vs Runtime efficiency
+- Memory vs Speed
+- Code complexity vs Performance
+- Development time vs Runtime efficiency
 
-3. **Think at Scale**
-   - Design for growth
-   - Consider edge cases
-   - Plan for maintenance
+### Think at Scale
+
+- Design for growth
+- Consider edge cases
+- Plan for maintenance
 
 ## Conclusion
 

@@ -4,9 +4,7 @@ title: Time & Space Complexity
 date: 2025-03-18 16:03 +0530
 ---
 
-> "The best way to predict the future is to implement it." - Alan Kay
-
-In the world of software engineering, understanding time and space complexity isn't just about passing technical interviews - it's about building systems that scale gracefully. This comprehensive guide will transform you from a complexity novice to a performance optimization expert.
+Time and space complexity are fundamental concepts in software engineering that help us build efficient, scalable systems.
 
 ## Introduction
 

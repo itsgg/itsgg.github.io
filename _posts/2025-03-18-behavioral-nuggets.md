@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Behavioral Nuggets
-date: 2025-03-18 15:59 +0530
+date: 2025-03-17 15:59 +0530
 ---
 
-Behavioral nuggets are small, actionable pieces of advice or insights that help people change their behavior or habits in a positive way. Here's a collection of behavioral psychology principles with real-world examples.
+Behavioral nuggets are small, actionable pieces of advice or insights that help people change their behavior or habits in a positive way.
 
 ## 1. Scarcity
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Time and Space Complexity
+title: Time & Space Complexity
 date: 2025-03-18 16:03 +0530
 ---
 

@@ -15,12 +15,15 @@ Understanding time complexity and space complexity is fundamental to writing eff
 Before diving into the technical details, let's understand why complexity analysis is crucial:
 
 #### Performance at Scale
+
 - A solution that works well with 100 items might fail miserably with 1 million
 
 #### Resource Efficiency
+
 - Understanding space complexity helps prevent memory leaks and excessive resource usage
 
 #### System Design
+
 - Complexity analysis is fundamental to designing scalable architectures
 
 #### Cost Optimization
@@ -196,7 +199,7 @@ end
 puts first_element([1, 2, 3]) # => 1
 ```
 
-##### Execution Steps
+##### Execution Steps for O(1)
 
 ```text
 Array: [1, 2, 3]
@@ -232,7 +235,7 @@ end
 puts binary_search([1, 2, 3, 4, 5], 3) # => 2
 ```
 
-##### Execution Steps
+##### Execution Steps for O(log n)
 
 _Searching for 3 in [1, 2, 3, 4, 5]_
 
@@ -308,7 +311,7 @@ end
 puts bubble_sort([5, 3, 8, 6]) # => [3, 5, 6, 8]
 ```
 
-##### Execution Steps
+##### Execution Steps for O(n²)
 
 _Sorting [5, 3, 8, 6] using Bubble Sort_
 
@@ -367,7 +370,7 @@ end
 puts merge_sort([5, 3, 8, 6]) # => [3, 5, 6, 8]
 ```
 
-##### Execution Steps
+##### Execution Steps for O(n log n)
 
 _Sorting [5, 3, 8, 6] using Merge Sort_
 
@@ -408,7 +411,7 @@ end
 puts generate_subsets([1, 2, 3]).inspect
 ```
 
-##### Execution Steps
+##### Execution Steps for O(2ⁿ)
 
 _Generating subsets of [1, 2]_
 
@@ -456,7 +459,7 @@ end
 puts generate_permutations([1, 2, 3]).inspect
 ```
 
-##### Execution Steps
+##### Execution Steps for O(n!)
 
 _Generating permutations of [1, 2, 3]_
 
@@ -482,9 +485,11 @@ While time complexity focuses on execution speed, space complexity measures memo
 ### Components of Space Complexity
 
 #### Input Space
+
 - Memory required to store the input data
 
 #### Auxiliary Space
+
 - Additional memory used during computation
 
 ### Common Space Complexities
@@ -512,8 +517,6 @@ end
 ```
 
 ##### Memory Visualization
-
-_Swapping elements in an array_
 
 ```text
 Input Array:  [4, 2, 7, 1]    Only one extra variable (temp)
@@ -543,7 +546,7 @@ def binary_search_recursive(array, target, low = 0, high = array.length - 1)
 end
 ```
 
-##### Memory Visualization
+##### Memory Visualization for O(log n)
 
 _Searching for 7 in [1, 2, 3, 4, 5, 6, 7, 8]_
 
@@ -580,7 +583,7 @@ def reverse_copy(array)
 end
 ```
 
-##### Memory Visualization
+##### Memory Visualization for O(n)
 
 _Reversing [1, 2, 3, 4]_
 
@@ -616,7 +619,7 @@ def create_distance_matrix(vertices)
 end
 ```
 
-##### Memory Visualization
+##### Memory Visualization for O(n²)
 
 _Calculating Distances for [A, B, C]_
 

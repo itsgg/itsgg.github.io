@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Four Noble Truths & Eightfold Path of Buddhism
+title: Core Concepts of Buddhism
 date: 2025-03-24 11:44 +0530
 ---
 
-Discover how the Four Noble Truths and the Eightfold Path offer profound insights into overcoming suffering and achieving enlightenment in everyday life.
+Discover how the Four Noble Truths and the Eightfold Path provide deep insights into overcoming suffering and achieving enlightenment in daily life.
 
 ## The Four Nobel Truths
 
@@ -32,7 +32,7 @@ This truth outlines the Eightfold Path, which provides a practical guide to ethi
 
 A person might start practicing Right Speech by being more mindful of their words, avoiding gossip and harmful language. They may also engage in Right Action by volunteering and helping others. By following the Eightfold Path, they gradually cultivate wisdom, ethical conduct, and mental discipline, leading to reduced suffering and greater happiness.
 
---- 
+---
 
 ## The Eight-Fold Path
 

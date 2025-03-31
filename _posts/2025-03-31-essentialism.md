@@ -24,23 +24,18 @@ Clearly defining and maintaining limits to protect essential priorities, time, a
 
 ### Priority Matrix
 
-#### Benefits
-
-- Clarifies goals and priorities efficiently.
-- Ensures meaningful progress on high-impact activities.
-
 #### Steps
 
 1. List all current tasks or goals you're considering.
 2. Rank tasks based on their significance and potential impact.
 3. Select only the top 2–3 tasks to fully commit your time and energy.
 
-### Essential Intent
-
 #### Benefits
 
-- Provides clear, purpose-driven direction.
-- Reduces decision fatigue and increases productivity.
+- Clarifies goals and priorities efficiently.
+- Ensures meaningful progress on high-impact activities.
+
+### Essential Intent
 
 #### Steps
 
@@ -48,12 +43,12 @@ Clearly defining and maintaining limits to protect essential priorities, time, a
 2. Identify and write a clear, concise statement of your essential intent.
 3. Regularly review and align your daily decisions with this intent.
 
-### Activity Audit
-
 #### Benefits
 
-- Frees up valuable time and mental energy.
-- Enhances focus on activities aligned with personal goals.
+- Provides clear, purpose-driven direction.
+- Reduces decision fatigue and increases productivity.
+
+### Activity Audit
 
 #### Steps
 
@@ -61,12 +56,12 @@ Clearly defining and maintaining limits to protect essential priorities, time, a
 2. Identify tasks that don't align with your essential intent or add significant value.
 3. Eliminate or delegate these non-essential activities immediately.
 
-### Saying 'No'
-
 #### Benefits
 
-- Strengthen personal boundaries and assertiveness.
-- Protects time, energy, and attention for essential tasks.
+- Frees up valuable time and mental energy.
+- Enhances focus on activities aligned with personal goals.
+
+### Saying 'No'
 
 #### Steps
 
@@ -74,12 +69,12 @@ Clearly defining and maintaining limits to protect essential priorities, time, a
 2. Clearly explain your reasons, referring to your essential priorities.
 3. Regularly reflect on how saying "no" positively impacts your well-being and goals.
 
-### Boundary Setting
-
 #### Benefits
 
-- Protects your essential tasks and well-being effectively.
-- Improves relationships through clear expectations and reduced conflict.
+- Strengthen personal boundaries and assertiveness.
+- Protects time, energy, and attention for essential tasks.
+
+### Boundary Setting
 
 #### Steps
 
@@ -87,18 +82,23 @@ Clearly defining and maintaining limits to protect essential priorities, time, a
 2. Define clear, actionable limits (e.g., dedicated work hours, family time, personal space).
 3. Communicate these boundaries clearly to others.
 
-### Time Blocking
-
 #### Benefits
 
-- Maximizes productivity through intentional, dedicated effort.
-- Reduces stress by clearly defining work and rest period.
+- Protects your essential tasks and well-being effectively.
+- Improves relationships through clear expectations and reduced conflict.
+
+### Time Blocking
 
 #### Steps
 
 1. Schedule focused, uninterrupted time blocks dedicated exclusively to essential task.
 2. Eliminate distractions during these time blocks (notifications off, quiet environment).
 3. Regularly evaluate and adjust blocks to optimize productivity and satisfaction.
+
+#### Benefits
+
+- Maximizes productivity through intentional, dedicated effort.
+- Reduces stress by clearly defining work and rest period.
 
 ## Reflections
 

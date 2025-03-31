@@ -41,6 +41,9 @@ paginate_path: "/page/:num/"
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
 remote_theme: jekyll/minima
 feed:
   path: /blog/feed.atom

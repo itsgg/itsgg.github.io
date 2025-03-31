@@ -107,11 +107,11 @@ Clearly defining and maintaining limits to protect essential priorities, time, a
 
 ## Summary
 
-| Concept                     | Exercise                              | Benefits                                  |
-| --------------------------- | ------------------------------------- | ----------------------------------------- |
-| [Discernment](#discernment) | [Priority Matrix](#priority-matrix)   | Clarifies priorities, efficient progress  |
-| [Discernment](#discernment) | [Essential Intent](#essential-intent) | Clear direction, reduced decision fatigue |
-| [Elimination](#elimination) | [Activity Audit](#activity-audit)     | Increased focus, free-up time             |
-| [Elimination](#elimination) | [Saying 'No'](#saying-no)             | Stronger boundaries, better focus         |
-| [Boundaries](#boundaries)   | [Boundary Setting](#boundary-setting) | Protect priorities, reduce conflict       |
-| [Boundaries](#boundaries)   | [Time Blocking](#time-blocking)       | Improved productivity, reduced stress     |
+| Concept          | Exercise              | Benefits                                  |
+| ---------------- | --------------------- | ----------------------------------------- |
+| [[#Discernment]] | [[#Priority Matrix]]  | Clarifies priorities, efficient progress  |
+| [[#Discernment]] | [[#Essential Intent]] | Clear direction, reduced decision fatigue |
+| [[#Elimination]] | [[#Activity Audit]]   | Increased focus, free-up time             |
+| [[#Elimination]] | [[#Saying 'No']]      | Stronger boundaries, better focus         |
+| [[#Boundaries]]  | [[#Boundary Setting]] | Protect priorities, reduce conflict       |
+| [[#Boundaries]]  | [[#Time Blocking]]    | Improved productivity, reduced stress     |

@@ -15,6 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: GG
 
+url: https://itsgg.com
+lang: en
+
 author:
   name: Ganesh Gunasegaran
   nickname: GG
@@ -63,3 +66,5 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+
+permalink: /blog/:year/:month/:day/:title/

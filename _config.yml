@@ -36,7 +36,7 @@ minima:
     - { title: github, url: "https://github.com/itsgg", icon: github }
     - { title: rss, url: "/blog/feed.atom", icon: stack-exchange }
   
-paginate: 5
+paginate: 10
 paginate_path: "/page/:num/"
 
 # Build settings

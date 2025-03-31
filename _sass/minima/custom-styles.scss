@@ -102,6 +102,10 @@ img[alt$='><'] {
   }
 }
 
+html {
+  scroll-padding-top: 75px;
+}
+
 .site-header {
   background-color: #111;
   border-top: 5px solid #111;

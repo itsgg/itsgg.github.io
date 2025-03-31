@@ -17,15 +17,25 @@ module Jekyll
     end
 
     def convert_wiki_link(link)
-      if link.start_with?('#')
-        anchor = link[1..].gsub(/\s+/, '-').downcase
-        "[#{link[1..]}](##{anchor})"
-      elsif link.include?('#')
-        page_name, anchor = link.split('#', 2)
-        "[#{page_name}](/#{page_name}/##{anchor.strip.gsub(/\s+/, '-').downcase})"
-      else
-        "[#{link}](/#{link}/)"
-      end
+      return section_link(link[1..]) if link.start_with?('#')
+      return page_with_section_link(*link.split('#', 2)) if link.include?('#')
+
+      "[#{link}](/#{link}/)"
+    end
+
+    def section_link(section_text)
+      "[#{section_text}](##{generate_anchor(section_text)})"
+    end
+
+    def page_with_section_link(page_name, section)
+      "[#{page_name}](/#{page_name}/##{generate_anchor(section.strip)})"
+    end
+
+    def generate_anchor(text)
+      text.downcase
+          .gsub(/['"]/, '') # Remove quotes
+          .gsub(/[^a-z0-9]+/, '-') # Replace non-alphanumeric chars with hyphens
+          .gsub(/^-+|-+$/, '') # Remove leading/trailing hyphens
     end
   end
 end

@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: GG
+
 author:
   name: Ganesh Gunasegaran
   nickname: GG
@@ -39,14 +40,18 @@ minima:
 paginate: 10
 paginate_path: "/page/:num/"
 
-# Build settings
+timezone: Asia/Kolkata
+
 markdown: kramdown
 kramdown:
   input: GFM
   auto_ids: true
+
 remote_theme: jekyll/minima
+
 feed:
   path: /blog/feed.atom
+
 plugins:
   - jekyll-compose
   - jekyll-feed
@@ -54,17 +59,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-relative-links
+
 relative_links:
   enabled: true
   collections: true
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/

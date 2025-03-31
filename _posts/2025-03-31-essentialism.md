@@ -24,8 +24,6 @@ Clearly defining and maintaining limits to protect essential priorities, time, a
 
 ### Priority Matrix
 
-> Ref: [Discernment](#discernment)
-
 #### Benefits
 
 - Clarifies goals and priorities efficiently.
@@ -38,8 +36,6 @@ Clearly defining and maintaining limits to protect essential priorities, time, a
 3. Select only the top 2–3 tasks to fully commit your time and energy.
 
 ### Essential Intent
-
-> Ref: [Discernment](#discernment)
 
 #### Benefits
 
@@ -54,8 +50,6 @@ Clearly defining and maintaining limits to protect essential priorities, time, a
 
 ### Activity Audit
 
-> Ref: [Elimination](#elimination)
-
 #### Benefits
 
 - Frees up valuable time and mental energy.
@@ -68,8 +62,6 @@ Clearly defining and maintaining limits to protect essential priorities, time, a
 3. Eliminate or delegate these non-essential activities immediately.
 
 ### Saying 'No'
-
-> Ref: [Elimination](#elimination), [Boundaries](#boundaries)
 
 #### Benefits
 
@@ -84,8 +76,6 @@ Clearly defining and maintaining limits to protect essential priorities, time, a
 
 ### Boundary Setting
 
-> Ref: [Boundaries](#boundaries)
-
 #### Benefits
 
 - Protects your essential tasks and well-being effectively.
@@ -98,8 +88,6 @@ Clearly defining and maintaining limits to protect essential priorities, time, a
 3. Communicate these boundaries clearly to others.
 
 ### Time Blocking
-
-> Ref: [Boundaries](#boundaries)
 
 #### Benefits
 

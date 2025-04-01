@@ -4,7 +4,7 @@ title: Time & Space Complexity
 date: 2025-03-18 16:03 +0530
 ---
 
-> Time and space complexity are fundamental concepts in software engineering that help us build efficient, scalable systems.
+Time and space complexity are fundamental concepts in software engineering that help us build efficient, scalable systems.
 
 ---
 

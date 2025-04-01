@@ -4,7 +4,7 @@ title: Mindfulness
 date: 2025-04-01 01:15 +0530
 ---
 
-> Mindfulness involves maintaining a purposeful, non-judgmental awareness of the present moment. It enhances emotional balance, reduces anxiety, and improves overall life satisfaction through continuous practice.
+Mindfulness involves maintaining a purposeful, non-judgmental awareness of the present moment. It enhances emotional balance, reduces anxiety, and improves overall life satisfaction through continuous practice.
 
 ---
 

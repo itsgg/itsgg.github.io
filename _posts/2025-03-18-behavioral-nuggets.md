@@ -4,9 +4,11 @@ title: Behavioral Nuggets
 date: 2025-03-17 15:59 +0530
 ---
 
-Behavioral nuggets are small, actionable pieces of advice or insights that help people change their behavior or habits in a positive way.
+> Behavioral nuggets are small, actionable pieces of advice or insights that help people change their behavior or habits in a positive way.
 
-## 1. Scarcity
+---
+
+## Scarcity
 
 We value things more when they're in limited supply.
 
@@ -14,7 +16,7 @@ We value things more when they're in limited supply.
 
 ---
 
-## 2. Prospect Theory
+## Prospect Theory
 
 A loss hurts more than an equal gain feels good.
 
@@ -22,7 +24,7 @@ A loss hurts more than an equal gain feels good.
 
 ---
 
-## 3. Framing
+## Framing
 
 We make very different decisions based on how a fact is presented.
 
@@ -30,7 +32,7 @@ We make very different decisions based on how a fact is presented.
 
 ---
 
-## 4. Self-Expression
+## Self-Expression
 
 We constantly seek out ways to communicate our identity to others.
 
@@ -38,7 +40,7 @@ We constantly seek out ways to communicate our identity to others.
 
 ---
 
-## 5. Priming
+## Priming
 
 Our decisions are shaped by memories recalled from things just seen or heard.
 
@@ -46,7 +48,7 @@ Our decisions are shaped by memories recalled from things just seen or heard.
 
 ---
 
-## 6. Autonomy Bias
+## Autonomy Bias
 
 We have a deep-seated need to control our situations.
 
@@ -54,7 +56,7 @@ We have a deep-seated need to control our situations.
 
 ---
 
-## 7. Status Quo Bias
+## Status Quo Bias
 
 We tend to stick with our previous choices, even if the alternatives might be better.
 
@@ -62,7 +64,7 @@ We tend to stick with our previous choices, even if the alternatives might be be
 
 ---
 
-## 8. Round Pricing Preference
+## Round Pricing Preference
 
 We prefer and trust whole numbers over those ending in a 9.
 
@@ -70,7 +72,7 @@ We prefer and trust whole numbers over those ending in a 9.
 
 ---
 
-## 9. Center-Stage Effect
+## Center-Stage Effect
 
 We prefer the middle option in a horizontal set of choices.
 
@@ -78,7 +80,7 @@ We prefer the middle option in a horizontal set of choices.
 
 ---
 
-## 10. Friction
+## Friction
 
 We're less likely to complete a task with each step added.
 
@@ -86,7 +88,7 @@ We're less likely to complete a task with each step added.
 
 ---
 
-## 11. Boundary Pricing
+## Boundary Pricing
 
 We're more likely to upgrade if the base price feels closer.
 
@@ -94,7 +96,7 @@ We're more likely to upgrade if the base price feels closer.
 
 ---
 
-## 12. Afterlife Effect
+## Afterlife Effect
 
 We recycle more when shown what the product will become.
 
@@ -102,7 +104,7 @@ We recycle more when shown what the product will become.
 
 ---
 
-## 13. Zeigarnik Effect
+## Zeigarnik Effect
 
 Incomplete tasks weigh on our minds until done.
 
@@ -110,7 +112,7 @@ Incomplete tasks weigh on our minds until done.
 
 ---
 
-## 14. Time Scarcity
+## Time Scarcity
 
 We're more likely to act if the clock is ticking.
 
@@ -118,7 +120,7 @@ We're more likely to act if the clock is ticking.
 
 ---
 
-## 15. Surprise Effect
+## Surprise Effect
 
 We respond well to positive, unexpected, personal gestures.
 
@@ -126,7 +128,7 @@ We respond well to positive, unexpected, personal gestures.
 
 ---
 
-## 16. Storyteller Bias
+## Storyteller Bias
 
 We're more persuaded by and better recall those who tell stories.
 
@@ -134,7 +136,7 @@ We're more persuaded by and better recall those who tell stories.
 
 ---
 
-## 17. Spacing Effect
+## Spacing Effect
 
 We remember things better when repeated over time and across environments.
 
@@ -142,7 +144,7 @@ We remember things better when repeated over time and across environments.
 
 ---
 
-## 18. Segregation Effect
+## Segregation Effect
 
 Positive experiences feel better overall when we spread them out.
 
@@ -150,7 +152,7 @@ Positive experiences feel better overall when we spread them out.
 
 ---
 
-## 19. Rhyme As Reason Effect
+## Rhyme As Reason Effect
 
 Rhyming statements that you hear, they are seen as more sincere.
 
@@ -158,7 +160,7 @@ Rhyming statements that you hear, they are seen as more sincere.
 
 ---
 
-## 20. Reciprocity Decay
+## Reciprocity Decay
 
 Our desire to give back wanes rapidly with time.
 
@@ -166,7 +168,7 @@ Our desire to give back wanes rapidly with time.
 
 ---
 
-## 21. Product-Person Bias
+## Product-Person Bias
 
 We look for and value human connections in our products.
 
@@ -174,7 +176,7 @@ We look for and value human connections in our products.
 
 ---
 
-## 22. Picture Superiority Effect
+## Picture Superiority Effect
 
 We remember images far better than words.
 
@@ -182,7 +184,7 @@ We remember images far better than words.
 
 ---
 
-## 23. Odor Priming
+## Odor Priming
 
 We'll pay more when we smell something nice.
 
@@ -190,7 +192,7 @@ We'll pay more when we smell something nice.
 
 ---
 
-## 24. Metaphorical Shortcut
+## Metaphorical Shortcut
 
 New or complex ideas are easier understood through existing ones.
 
@@ -198,7 +200,7 @@ New or complex ideas are easier understood through existing ones.
 
 ---
 
-## 25. Limited Choice
+## Limited Choice
 
 We're more likely to decide when the options are sensibly restricted.
 
@@ -206,7 +208,7 @@ We're more likely to decide when the options are sensibly restricted.
 
 ---
 
-## 26. IKEA Effect
+## IKEA Effect
 
 We'll pay disproportionately more for something we helped create.
 
@@ -214,7 +216,7 @@ We'll pay disproportionately more for something we helped create.
 
 ---
 
-## 27. Hedonic Adaptation
+## Hedonic Adaptation
 
 We feel less joy for a gain and discomfort for a loss goes by.
 
@@ -222,7 +224,7 @@ We feel less joy for a gain and discomfort for a loss goes by.
 
 ---
 
-## 28. Goal Priming
+## Goal Priming
 
 When we're reminded of our aims, we're more motivated to reach them.
 
@@ -230,7 +232,7 @@ When we're reminded of our aims, we're more motivated to reach them.
 
 ---
 
-## 29. Fresh Start Effect
+## Fresh Start Effect
 
 We're more likely to stick to habits made at the start of new time periods.
 
@@ -238,7 +240,7 @@ We're more likely to stick to habits made at the start of new time periods.
 
 ---
 
-## 30. Fluency Shortcut
+## Fluency Shortcut
 
 Statements that are easier to understand are more believable.
 
@@ -246,7 +248,7 @@ Statements that are easier to understand are more believable.
 
 ---
 
-## 31. Entourage Effect
+## Entourage Effect
 
 Our status is elevated when we share our VIP treatment.
 
@@ -254,7 +256,7 @@ Our status is elevated when we share our VIP treatment.
 
 ---
 
-## 32. Endowed Progress Effect
+## Endowed Progress Effect
 
 We reach our goals faster when we have help getting started.
 
@@ -262,7 +264,7 @@ We reach our goals faster when we have help getting started.
 
 ---
 
-## 33. Devil Effect
+## Devil Effect
 
 Our perception of a single negative attribute unfairly bleeds into other unrelated areas.
 
@@ -270,7 +272,7 @@ Our perception of a single negative attribute unfairly bleeds into other unrelat
 
 ---
 
-## 34. Decoy Effect
+## Decoy Effect
 
 We're more likely to buy B over A by adding C to make B look more attractive.
 
@@ -278,7 +280,7 @@ We're more likely to buy B over A by adding C to make B look more attractive.
 
 ---
 
-## 35. Contrast Effect
+## Contrast Effect
 
 We better remember products that stand out from their surroundings.
 
@@ -286,7 +288,7 @@ We better remember products that stand out from their surroundings.
 
 ---
 
-## 36. Competition
+## Competition
 
 We strive with and against one another for limited resources and status.
 
@@ -294,7 +296,7 @@ We strive with and against one another for limited resources and status.
 
 ---
 
-## 37. Collection Bias
+## Collection Bias
 
 We have an emotional need to amass sets of related items.
 
@@ -302,7 +304,7 @@ We have an emotional need to amass sets of related items.
 
 ---
 
-## 38. Choice-Supportive Bias
+## Choice-Supportive Bias
 
 We recall more of the positives of our choices over any negatives.
 
@@ -310,7 +312,7 @@ We recall more of the positives of our choices over any negatives.
 
 ---
 
-## 39. Biophilia Effect
+## Biophilia Effect
 
 We're drawn to living things and become stressed if too detached from them.
 
@@ -318,7 +320,7 @@ We're drawn to living things and become stressed if too detached from them.
 
 ---
 
-## 40. Authority
+## Authority
 
 We have a strong tendency to comply with those in charge.
 
@@ -326,7 +328,7 @@ We have a strong tendency to comply with those in charge.
 
 ---
 
-## 41. Aggregation Effect
+## Aggregation Effect
 
 Negative experiences feel less painful overall when they're bundled together.
 
@@ -334,7 +336,7 @@ Negative experiences feel less painful overall when they're bundled together.
 
 ---
 
-## 42. Social Proof
+## Social Proof
 
 We copy the behaviors of others, especially in unfamiliar situations.
 
@@ -342,7 +344,7 @@ We copy the behaviors of others, especially in unfamiliar situations.
 
 ---
 
-## 43. Reciprocity
+## Reciprocity
 
 We're hardwired to return kindness received.
 
@@ -350,7 +352,7 @@ We're hardwired to return kindness received.
 
 ---
 
-## 44. Loss Aversion
+## Loss Aversion
 
 We feel more negative when losing something than positive when we gain it.
 
@@ -358,7 +360,7 @@ We feel more negative when losing something than positive when we gain it.
 
 ---
 
-## 45. Default Effect
+## Default Effect
 
 We tend to accept the options pre-chosen for us.
 
@@ -366,7 +368,7 @@ We tend to accept the options pre-chosen for us.
 
 ---
 
-## 46. Anchoring
+## Anchoring
 
 What we see first affects our judgment of everything thereafter.
 
@@ -374,7 +376,7 @@ What we see first affects our judgment of everything thereafter.
 
 ---
 
-## 47. Fast & Slow Thinking
+## Fast & Slow Thinking
 
 We make knee-jerk spontaneous decisions that can cause regretful damage.
 
@@ -382,7 +384,7 @@ We make knee-jerk spontaneous decisions that can cause regretful damage.
 
 ---
 
-## 48. Dynamic Norms
+## Dynamic Norms
 
 We're more likely to change if we can see a new behavior developing.
 
@@ -390,7 +392,7 @@ We're more likely to change if we can see a new behavior developing.
 
 ---
 
-## 49. Salience
+## Salience
 
 Our choices are determined by the information we're shown.
 
@@ -398,7 +400,7 @@ Our choices are determined by the information we're shown.
 
 ---
 
-## 50. Measurement Paradox
+## Measurement Paradox
 
 We enjoy experiences less when we track them.
 
@@ -406,7 +408,7 @@ We enjoy experiences less when we track them.
 
 ---
 
-## 51. In-Group Bias
+## In-Group Bias
 
 We tend to favor our group over others.
 
@@ -414,7 +416,7 @@ We tend to favor our group over others.
 
 ---
 
-## 52. If-Then Plans
+## If-Then Plans
 
 If in this scenario, we then plan to do that, we'll more likely to reach our goals.
 
@@ -422,7 +424,7 @@ If in this scenario, we then plan to do that, we'll more likely to reach our goa
 
 ---
 
-## 53. Availability Bias
+## Availability Bias
 
 Our judgments are heavily influenced by what comes to mind more easily.
 
@@ -430,7 +432,7 @@ Our judgments are heavily influenced by what comes to mind more easily.
 
 ---
 
-## 54. Analysis Paralysis
+## Analysis Paralysis
 
 Our capacity to process information and make decisions reduces with each made.
 
@@ -438,7 +440,7 @@ Our capacity to process information and make decisions reduces with each made.
 
 ---
 
-## 55. Zero Price Bias
+## Zero Price Bias
 
 We value something more when free over very cheap.
 
@@ -446,7 +448,7 @@ We value something more when free over very cheap.
 
 ---
 
-## 56. Tiny Habits
+## Tiny Habits
 
 We're more likely to reach goals when broken down into smaller ones.
 
@@ -454,7 +456,7 @@ We're more likely to reach goals when broken down into smaller ones.
 
 ---
 
-## 57. Temptation Bundling
+## Temptation Bundling
 
 We're more likely to do the hard stuff when coupled with the pleasant.
 
@@ -462,7 +464,7 @@ We're more likely to do the hard stuff when coupled with the pleasant.
 
 ---
 
-## 58. Sunk Cost Bias
+## Sunk Cost Bias
 
 We're unable to let go of our past bad investments, even if it makes sense to do so.
 
@@ -470,7 +472,7 @@ We're unable to let go of our past bad investments, even if it makes sense to do
 
 ---
 
-## 59. Status
+## Status
 
 We constantly look for ways to improve how others see us.
 
@@ -478,7 +480,7 @@ We constantly look for ways to improve how others see us.
 
 ---
 
-## 60. Serial Position Effect
+## Serial Position Effect
 
 We better remember the first and last items in a list.
 
@@ -486,7 +488,7 @@ We better remember the first and last items in a list.
 
 ---
 
-## 61. Risk Aversion
+## Risk Aversion
 
 We don't like uncertainty and generally stick to what we know.
 
@@ -494,7 +496,7 @@ We don't like uncertainty and generally stick to what we know.
 
 ---
 
-## 62. Rewards
+## Rewards
 
 We change our behavior when given gifts that reinforce actions and goals.
 
@@ -502,7 +504,7 @@ We change our behavior when given gifts that reinforce actions and goals.
 
 ---
 
-## 63. Reactance
+## Reactance
 
 We'll do the opposite from what we're asked if we're pushed too hard.
 
@@ -510,7 +512,7 @@ We'll do the opposite from what we're asked if we're pushed too hard.
 
 ---
 
-## 64. Present Bias
+## Present Bias
 
 What we want now is often the opposite of what we aspire to in the future.
 
@@ -518,7 +520,7 @@ What we want now is often the opposite of what we aspire to in the future.
 
 ---
 
-## 65. Peak-End Rule
+## Peak-End Rule
 
 We remember and judge an experience by its peaks and how it ended.
 
@@ -526,7 +528,7 @@ We remember and judge an experience by its peaks and how it ended.
 
 ---
 
-## 66. Nostalgia Effect
+## Nostalgia Effect
 
 Thinking about the past makes us want to spend more now.
 
@@ -534,7 +536,7 @@ Thinking about the past makes us want to spend more now.
 
 ---
 
-## 67. Mere Exposure Effect
+## Mere Exposure Effect
 
 We like things more as they become more familiar to us.
 
@@ -542,7 +544,7 @@ We like things more as they become more familiar to us.
 
 ---
 
-## 68. Limited Access
+## Limited Access
 
 We place greater value in things when there are barriers placed around them.
 
@@ -550,7 +552,7 @@ We place greater value in things when there are barriers placed around them.
 
 ---
 
-## 69. Humor Effect
+## Humor Effect
 
 We're more motivated by and remember things that make us laugh.
 
@@ -558,7 +560,7 @@ We're more motivated by and remember things that make us laugh.
 
 ---
 
-## 70. Halo Effect
+## Halo Effect
 
 We incorrectly transfer judgments of known attributes onto other unrelated or unknown ones.
 
@@ -566,7 +568,7 @@ We incorrectly transfer judgments of known attributes onto other unrelated or un
 
 ---
 
-## 71. Goal Gradient Effect
+## Goal Gradient Effect
 
 Our efforts increase the closer we are to task completion.
 
@@ -574,7 +576,7 @@ Our efforts increase the closer we are to task completion.
 
 ---
 
-## 72. Foot In The Door
+## Foot In The Door
 
 Making a small commitment now makes us more likely to agree to a greater one later.
 
@@ -582,7 +584,7 @@ Making a small commitment now makes us more likely to agree to a greater one lat
 
 ---
 
-## 73. Feedback Loops
+## Feedback Loops
 
 We look for information that provides clarity on our actions.
 
@@ -590,7 +592,7 @@ We look for information that provides clarity on our actions.
 
 ---
 
-## 74. Ownership Bias
+## Ownership Bias
 
 We value things more when we feel we own them.
 
@@ -598,7 +600,7 @@ We value things more when we feel we own them.
 
 ---
 
-## 75. Door In The Face
+## Door In The Face
 
 We're more likely to agree to a small request after first rejecting a larger one.
 
@@ -606,7 +608,7 @@ We're more likely to agree to a small request after first rejecting a larger one
 
 ---
 
-## 76. Delay Discounting
+## Delay Discounting
 
 We choose smaller, more immediate rewards over greater ones that we need to wait for.
 
@@ -614,7 +616,7 @@ We choose smaller, more immediate rewards over greater ones that we need to wait
 
 ---
 
-## 77. Curiosity Effect
+## Curiosity Effect
 
 We're driven to seek missing info that closes our knowledge gap.
 
@@ -622,7 +624,7 @@ We're driven to seek missing info that closes our knowledge gap.
 
 ---
 
-## 78. Confirmation Bias
+## Confirmation Bias
 
 We look for information that supports our existing beliefs and ignore what doesn't.
 
@@ -630,7 +632,7 @@ We look for information that supports our existing beliefs and ignore what doesn
 
 ---
 
-## 79. Commitment
+## Commitment
 
 Once we've made a public statement we make consistent decisions to support it.
 
@@ -638,7 +640,7 @@ Once we've made a public statement we make consistent decisions to support it.
 
 ---
 
-## 80. Chunking
+## Chunking
 
 We process information better when it's broken down into smaller, more manageable parts.
 

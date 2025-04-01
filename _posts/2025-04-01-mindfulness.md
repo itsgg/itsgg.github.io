@@ -4,7 +4,9 @@ title: Mindfulness
 date: 2025-04-01 01:15 +0530
 ---
 
-Mindfulness involves maintaining a purposeful, non-judgmental awareness of the present moment. It enhances emotional balance, reduces anxiety, and improves overall life satisfaction through continuous practice.
+> Mindfulness involves maintaining a purposeful, non-judgmental awareness of the present moment. It enhances emotional balance, reduces anxiety, and improves overall life satisfaction through continuous practice.
+
+---
 
 ## Concepts
 
@@ -12,13 +14,15 @@ Mindfulness involves maintaining a purposeful, non-judgmental awareness of the p
 
 Focusing fully on the current moment, observing thoughts and emotions without judgment.
 
-### Non Judgmental Observation
+### Non-Judgmental Observation
 
 Noticing experiences, thoughts, and emotions without labeling them as good or bad, fostering emotional clarity and acceptance.
 
 ### Compassionate Acceptance
 
 Actively accepting experiences and emotions with kindness and compassion towards oneself and others.
+
+---
 
 ## Exercises
 
@@ -100,10 +104,14 @@ Actively accepting experiences and emotions with kindness and compassion towards
 - Strengthens emotional resilience and self-acceptance.
 - Encourages positive emotional coping strategies.
 
+---
+
 ## Reflections
 
 - How might regular mindfulness practice positively impact your current struggles with anxiety, focus, and emotional regulations?
 - Reflect briefly on how increasing compassion toward yourself might change your daily interactions and decision-making.
+
+---
 
 ## Summary
 

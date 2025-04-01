@@ -4,7 +4,9 @@ title: Essentialism
 date: 2025-03-31 23:31 +0530
 ---
 
-Essentialism emphasizes focusing only on what's absolutely necessary, eliminating non-essential distractions to achieve greater productivity, clarity, and fulfillment. It advocates disciplined pursuit of fewer but better choices.
+> Essentialism emphasizes focusing only on what's absolutely necessary, eliminating non-essential distractions to achieve greater productivity, clarity, and fulfillment. It advocates disciplined pursuit of fewer but better choices.
+
+---
 
 ## Concepts
 
@@ -19,6 +21,8 @@ Actively removing non-essential tasks, activities, and commitments to concentrat
 ### Boundaries
 
 Clearly defining and maintaining limits to protect essential priorities, time, and energy.
+
+---
 
 ## Exercises
 

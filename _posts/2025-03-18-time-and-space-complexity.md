@@ -4,7 +4,9 @@ title: Time & Space Complexity
 date: 2025-03-18 16:03 +0530
 ---
 
-Time and space complexity are fundamental concepts in software engineering that help us build efficient, scalable systems.
+> Time and space complexity are fundamental concepts in software engineering that help us build efficient, scalable systems.
+
+---
 
 ## Introduction
 
@@ -142,7 +144,7 @@ end
 - The constant 100 still affects real-world performance
 - Use Big-O for high-level comparison, not micro-optimization
 
-##### Best Case vs Average Case
+##### Best Case Vs Average Case
 
 - Big-O typically shows worst case
 - Quick Sort: O(n log n) average, O(n²) worst case
@@ -165,6 +167,8 @@ For example, with n = 1000:
 - O(log n) ≈ 10 operations
 - O(n) = 1,000 operations
 - O(n²) = 1,000,000 operations
+
+---
 
 ## Time Complexity
 
@@ -189,7 +193,7 @@ Time complexity describes how the runtime of an algorithm changes as the size of
 - **Definition**: The algorithm's runtime does not depend on the input size.
 - **Real-World Example**: Picking the first book on a shelf takes the same time whether there are 5 or 500 books.
 
-##### Accessing an element by index
+##### Accessing an Element by Index
 
 ```ruby
 def first_element(array)
@@ -341,7 +345,7 @@ Final:   [3, 5, 6, 8]    Sorted!
 
 ---
 
-#### O(n log n) - Linearithmic Time
+#### O(n Log n) - Linearithmic Time
 
 - **Definition**: The runtime grows faster than O(n) but slower than O(n²), often in divide-and-conquer sorting.
 - **Real-World Example**: Sorting cards by repeatedly dividing and merging groups.
@@ -370,7 +374,7 @@ end
 puts merge_sort([5, 3, 8, 6]) # => [3, 5, 6, 8]
 ```
 
-##### Execution Steps for O(n log n)
+##### Execution Steps for O(n Log n)
 
 _Sorting [5, 3, 8, 6] using Merge Sort_
 
@@ -661,6 +665,8 @@ Total Space: O(n²)
 | O(n)                 | Speed is priority over memory      | Acceptable for most cases      |
 | O(n²)                | Problem requires storing all pairs | Only for small inputs          |
 
+---
+
 ## Real-World Applications
 
 ### Database Operations
@@ -694,6 +700,8 @@ def get_user(id)
 end
 ```
 
+---
+
 ## Best Practices
 
 ### Profile Before Optimizing
@@ -713,6 +721,8 @@ end
 - Design for growth
 - Consider edge cases
 - Plan for maintenance
+
+---
 
 ## Conclusion
 

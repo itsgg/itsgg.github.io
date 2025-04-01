@@ -22,7 +22,7 @@ Make deliberate, thoughtful purchasing decisions, prioritizing quality and genui
 
 ## Exercises
 
-### Decluttering
+### Decluttering Challenge
 
 #### Steps
 
@@ -35,7 +35,7 @@ Make deliberate, thoughtful purchasing decisions, prioritizing quality and genui
 - Reduces anxiety through organized, clutter-free environments.
 - Boosts productivity and clarity by eliminating distractions.
 
-### Digital Minimalism
+### Digital Minimalism Cleanup
 
 #### Steps
 
@@ -48,7 +48,7 @@ Make deliberate, thoughtful purchasing decisions, prioritizing quality and genui
 - Enhances digital focus and reduces decision fatigue.
 - Improves productivity through streamlined digital workflows.
 
-### Mindful Purchasing
+### Mindful Purchasing Reflection
 
 #### Steps
 
@@ -72,8 +72,8 @@ Make deliberate, thoughtful purchasing decisions, prioritizing quality and genui
 
 ## Summary
 
-| Concept                         | Exercisse               | Benefits                                                 |
-| ------------------------------- | ----------------------- | -------------------------------------------------------- |
-| [[#Intentional Simplification]] | [[#Decluttering]]       | Reduce anxiety, improve producitivity and mental clarity |
-| [[#Intentional Simplification]] | [[#Digital Minimalism]] | Increase digital focus, reduce distractions              |
-| [[#Mindful Consumption]]        | [[#Mindful Purchasing]] | Enhance financial health, promote ethical consumption    |
+| Concept                         | Exercisse                          | Benefits                                                 |
+| ------------------------------- | ---------------------------------- | -------------------------------------------------------- |
+| [[#Intentional Simplification]] | [[#Decluttering Challenge]]        | Reduce anxiety, improve producitivity and mental clarity |
+| [[#Intentional Simplification]] | [[#Digital Minimalism Cleanup]]    | Increase digital focus, reduce distractions              |
+| [[#Mindful Consumption]]        | [[#Mindful Purchasing Reflection]] | Enhance financial health, promote ethical consumption    |

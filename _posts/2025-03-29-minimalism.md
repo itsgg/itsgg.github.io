@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Minimalism
-date: 2025-04-01 15:47 +0530
+date: 2025-03-29 15:47 +0530
 ---
 
 Minimalism emphasizes living intentionally with fewer possessions and distractions, creating space for clarity, fulfillment, and meaningful experiences.

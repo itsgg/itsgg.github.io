@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Atomic Habits
-date: 2025-04-01 16:29 +0530
+date: 2025-03-22 16:29 +0530
 ---
 
 Atomic Habits provides a structured approach to creating lasting change through small, consistent habits, emphasizing incremental improvements and identity-based behavioral shifts.

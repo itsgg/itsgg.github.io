@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Positive Psychology
-date: 2025-04-01 16:41 +0530
+date: 2025-03-30 16:41 +0530
 ---
 
 Positive Psychology emphasizes building strengths, fostering resilience, cultivating gratitude, and enhancing personal well-being to help individuals thrive and experience deeper fulfillment.

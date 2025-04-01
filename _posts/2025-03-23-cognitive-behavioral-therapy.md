@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cognitive Behavioral Therapy
-date: 2025-04-01 18:58 +0530
+date: 2025-03-23 18:58 +0530
 ---
 
 Cognitive Behavioral Therapy (CBT) is a practical, evidence-based psychological approach aimed at identifying, challenging, and changing negative thought patterns and behaviors to improve emotional regulation, reduce anxiety, and enhance overall mental well-being.

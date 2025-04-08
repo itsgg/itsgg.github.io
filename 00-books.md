@@ -14,7 +14,7 @@ Do you feel constantly busy yet often wonder if you're truly accomplishing what 
 
 ### Downloads
 
-[PDF](/assets/Intentional Wisdom/Intentional-Wisdom-Apple.epub) / [ePub](/assets/Intentional Wisdom/Intentional-Wisdom-Apple.epub) / [Templates](/assets/Intentional Wisdom.zip)
+[PDF](/assets/Intentional Wisdom/Intentional-Wisdom-Apple.epub) / [ePub](/assets/Intentional Wisdom/Intentional-Wisdom-Apple.epub) / [Templates](/assets/Intentional Wisdom.zip) / [Amazon](https://www.amazon.in/dp/B0F3W7K765){:target="_blank"}
 
 In **Intentional Wisdom**, you'll discover powerful, practical strategies to move from autopilot to intentional living. Blending timeless insights from ancient wisdom traditions with modern psychology, you'll learn clearly how to:
 

@@ -105,6 +105,10 @@ img[alt$='><'] {
     margin: auto;
     float: none !important;
   }
+  
+  .nav-separator {
+    display: none;
+  }
 }
 
 html {

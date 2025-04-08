@@ -181,8 +181,10 @@ html {
   }
 }
 
-/* Active menu item styling */
 .nav-item.active {
   color: #79b8ff !important;
-  position: relative;
+}
+
+.site-nav .nav-item:not(:last-child) {
+  margin-right: 0 !important;
 }

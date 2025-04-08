@@ -29,6 +29,7 @@ description: >-
 google_analytics: G-ER412RRHJF
 
 header_pages:
+  - books.md
   - about.md
 
 minima:

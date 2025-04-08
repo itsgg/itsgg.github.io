@@ -92,6 +92,11 @@ img[alt$='><'] {
   width: 500px;
 }
 
+.book_img {
+  height: 320px;
+  width: 200px;
+}
+
 @media (max-width: 600px) {
   .profile_img {
     display: block;
@@ -174,4 +179,10 @@ html {
       }
     }
   }
+}
+
+/* Active menu item styling */
+.nav-item.active {
+  color: #79b8ff !important;
+  position: relative;
 }

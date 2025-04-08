@@ -98,7 +98,7 @@ img[alt$='><'] {
 }
 
 @media (max-width: 600px) {
-  .profile_img {
+  .profile_img, .book_img {
     display: block;
     max-width: 100%;
     text-align: center;

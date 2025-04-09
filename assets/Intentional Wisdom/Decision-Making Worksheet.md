@@ -20,11 +20,17 @@
 
 > [!tip] List Pros & Cons
 
-| Pros     | Cons     |
-| -------- | -------- |
-| {Pros 1} | {Cons 1} |
-| {Pros 2} | {Cons 2} |
-| {Pros 3} | {Cons 3} |
+### Pros
+
+- {Pros 1}
+- {Pros 2}
+- {Pros 3}
+
+### Cons
+
+- {Cons 1}
+- {Cons 2}
+- {Cons 3}
 
 ---
 
@@ -51,6 +57,16 @@
 > [!tip] Clearly state your intentional decision.
 
 {TBD}
+
+---
+
+## My Personalized Immediate Action Plan
+
+>[!tip] Clearly outline your immediate action plan to align with your decisions.
+
+- {Plan 1}
+- {Plan 2}
+- {Plan 3}
 
 ---
 

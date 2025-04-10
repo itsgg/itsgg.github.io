@@ -1,5 +1,5 @@
 <div class="nav-items">
-  <a class="nav-item {% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+  <a class="nav-item {% if page.url == '/' or page.url contains '/blog' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
   {%- for path in include.paths -%}
     {%- assign hyperpage = site.pages | where: "path", path | first -%}
     {%- if hyperpage.title %}

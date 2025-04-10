@@ -13,7 +13,6 @@ source 'https://rubygems.org'
 
 gem 'csv'
 gem 'github-pages'
-gem 'jekyll'
 gem 'minima'
 gem 'rubocop'
 gem 'solargraph'
